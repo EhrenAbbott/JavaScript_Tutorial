@@ -34,17 +34,40 @@
 
 // ------------------doc.js------------------------------------------
 
-let countEl = document.getElementById("count-el")
+// let countEl = document.getElementById("count-el")
 
-let count = 0;
+// let count = 0;
 
-function increment() { 
-    count =  count + 1
-    countEl.innerText = count
+// function increment() { 
+//     count =  count + 1
+//     countEl.innerText = count
 
-}
+// }
+
+// NOTE: .innerText doesn't return things that are not human readable, such as
+// spaces. Instead, .textContent can be used to return spaces or other "hidden" characters. 
 
 // ########################################################################################
+
+// 3. Concatenate the following two strings: 
+
+// let firstname = "John"
+// let lastname = "Doe" 
+
+// console.log(firstname + lastname)
+
+// NOTE: In JS the string will trump a number if you are concatenating them; 
+// So, 5 (with a datatype of number) = "42" (with a data type of string) will equal "542" (data type string)
+
+// ########################################################################################
+
+
+
+
+
+
+
+
 
 // !VOCAB! 
 
@@ -71,4 +94,17 @@ function increment() {
     // this refers to giving a function some sort of data to work with
 
 // DOM: 
-    //
+    // Stands for Document Object Model. On the most basic level this represents how you 
+    // use JS to modify a website. 
+    // Document - refers to the HTML document 
+    // Object - the "document" keyword in JS is of the data type object. Essentially they've taken the HTML document and inserted it into a jS object
+    // Model - a representation; In this case you have the real HTML element/file, and then you have the JS model representation, which is the "document" keyword
+
+// string: 
+    // a data type that essentially just refers to text. HTML only 
+    // knows about/handles strings and has no awareness of other data types. 
+
+
+// mdn: 
+    // short for 'mozilla developer networks'; a great resource that contain extensive documentation
+    // on a wide range of topics
