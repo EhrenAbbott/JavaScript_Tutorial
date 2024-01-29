@@ -61,7 +61,23 @@
 
 // ########################################################################################
 
+// 4. Create a condition that console logs "more", "less" or same when a number is compared to 50.
 
+// let number = 7; 
+
+// if (number > 50) { 
+//     console.log("more")
+// } else if (number === 50){ 
+//     console.log("same")
+// } else { 
+//     console.log("less")
+// }
+
+// NOTE: the triple equals sign, ===, is strict; it differentiates between strings and numbers, so "50" === 50 
+// would not evaluate to true; however, the double equals allows strings to be compared to numbers so the same thing
+// but with == instead of === would be a true statement. 
+
+// ########################################################################################
 
 
 
