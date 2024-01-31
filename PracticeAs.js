@@ -109,7 +109,50 @@
 
 // ########################################################################################
 
+// 8.  Add an item to the end of an array
 
+// myArray.push("new item")
+
+// ########################################################################################
+
+// 9. Remove the last item from an array
+
+// newArray.pop()
+
+// ########################################################################################
+
+// 10. Write a for loop with the appropriate conditions
+
+// for ( let count = 1; count < 11; count += 1 ) { 
+//     console.log(count)
+// }
+
+// NOTE: a for loop always begins with the 'for' keyword. The first condition is 
+// the starting point of the array, the second condition is the finish condition, or,  
+// the number that the loop will not exceed (it may not always include this number depending
+// on the third condition). The third condition is the step size, much determines the increment.
+// These conditions determine how many times the code (in the curly brackets) runs. 
+// The variable "count" is declared here in the for loop but it could be anything; it
+// is often just called 'i'
+
+// ########################################################################################
+
+// 11. Write a for loop that logs each item in the following array: 
+
+// let messages = [ 
+//     "hi",
+//     "how",
+//     "are", 
+//     "you?"
+// ]
+
+// for (let i = 0; i < messages.length; i += 1) { 
+//     console.log(messages[i])
+// }
+
+//NOTE: i += 1 can be replaced with i++ to make it more succinct
+
+// ########################################################################################
 
 
 
@@ -183,4 +226,13 @@
     // A data type that is not composed of multiple different data types
     // Examples include: strings, numbers, and Booleans
 
+// method: 
+    // a function performed on an object
 
+// step size: 
+    // the third condition of a for loop to specifies the size of the increment
+
+// DRY: 
+    // a concept in coding that stands for "don't repeat yourself"; Meaining, don't write 
+    // more code than you need to, especially if you are just repeating the same code 
+    // in favor of using scalable code
