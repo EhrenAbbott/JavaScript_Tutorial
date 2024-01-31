@@ -40,3 +40,7 @@
 // 4. Create a condition that console logs "more", "less" or same when a number is compared to 50.
 
 // ########################################################################################
+
+// 5. Set a variable using a query selector to select an element by its ID.
+
+// ########################################################################################
