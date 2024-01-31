@@ -44,3 +44,7 @@
 // 5. Set a variable using a query selector to select an element by its ID.
 
 // ########################################################################################
+
+// 6. Refer to the first item in an array called myArr
+
+// ########################################################################################

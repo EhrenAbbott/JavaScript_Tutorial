@@ -81,13 +81,22 @@
 
 // 5. Set a variable using a query selector to select an element by its ID.
 
-let myVar = document.querySelector("#sum-el")
+// let myVar = document.querySelector("#sum-el")
 
 // NOTE: .querySelector is broader, more dynamic so we have to be more specific with what we pass into it; 
 // the hashtag lets it know that we are referring to an element with the CSS id of "sum-el" TO refer to a
 // CSS class we would replace the hashtag with a period.
 // Without anything in front of it (no period or hashtag), it would refer to the entire element (all child 
 // elements contained within)
+
+// ########################################################################################
+
+// 6. Refer to the first item in an array called myArr
+
+// myArr[0]
+
+//NOTE: Arrays are zero-indexed, meaning that they start counting their number of
+// items they contain from zero
 
 // ########################################################################################
 
@@ -148,4 +157,12 @@ let myVar = document.querySelector("#sum-el")
     // a series of values for the CSS 'font' property; a font stack is a list of font names in quotes separated
     // by commas, the point of which is to act as a series of fallbacks for the operating system in case it does not allow the 
     //  browser to display the first, it will go down the list until on of the fonts can be displayed
+    
+// array: 
+    // and ordered list of items. Ex: let myArr = ["hello", "there"];
+
+// zero-indexing: 
+    // the practice of starting to count elements in a sequence from 0 instead of one; so, the 
+    // initial item in array woudl have an index of 0, and the second item would have an index of 1 
+
     
