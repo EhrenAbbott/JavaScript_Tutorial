@@ -100,6 +100,15 @@
 
 // ########################################################################################
 
+// 7. Find the length of an array
+
+// myArr.length
+
+//NOTE: the lengths of arrays are NOT zero indexed; an array with three 
+// items has a length of three.
+
+// ########################################################################################
+
 
 
 
@@ -159,10 +168,19 @@
     //  browser to display the first, it will go down the list until on of the fonts can be displayed
     
 // array: 
-    // and ordered list of items. Ex: let myArr = ["hello", "there"];
+    // an ordered list of items. Ex: let myArr = ["hello", "there"];
+    // any data type can go into an array, which makes it a composite data type AKA complex data type
 
 // zero-indexing: 
     // the practice of starting to count elements in a sequence from 0 instead of one; so, the 
     // initial item in array woudl have an index of 0, and the second item would have an index of 1 
 
-    
+// composite data type (AKA: complex data type): 
+    // a data type made of of multiple items that can each have different data types 
+    // Arrays and objects are complex.
+
+// primitive data type: 
+    // A data type that is not composed of multiple different data types
+    // Examples include: strings, numbers, and Booleans
+
+
