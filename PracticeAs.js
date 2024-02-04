@@ -154,7 +154,28 @@
 
 // ########################################################################################
 
+// 12. Loop through the folloing array and display every item in it.
+//     Assume a paragraph element with the id of greeting-el
 
+// let sentence = ["Hello ", "my ", "name ", "is ", "..."] 
+// let greetingEl = document.getElementById("greeting-el")
+
+// for (let i = 0; i < sentence.length; i++ ){ 
+//     greetingEl.textContent += sentence[i]
+// }
+
+//NOTE: After .textContent you need to use += in order to maintai the words that were
+// previously rendered, or else it would just render the last word 
+
+// ########################################################################################
+
+// 13. Generate a random number and assign it to a variable
+
+// let randomNumber = Math.random() 
+
+// NOTE: This generates a random number between 0 and .999999 (INclusive of zero, but EXclusive of 1)
+
+// ########################################################################################
 
 
 
@@ -235,4 +256,20 @@
 // DRY: 
     // a concept in coding that stands for "don't repeat yourself"; Meaining, don't write 
     // more code than you need to, especially if you are just repeating the same code 
-    // in favor of using scalable code
+    // in favor of using scalable code 
+
+// hoisting: 
+    // when someting, such as a function, is declared further down in the code but
+    // is actually accessible in lines previous to its declaration
+
+// function declaration: 
+    // a specific way of writing a function that allows it to be hoisted.
+    // The general format is: 
+    // function myFunc() { 
+        // return XYZ
+    // }
+
+// intrinsic object: 
+    // also called a "built-in", this is something that is naturally supported
+    // by the language itself and doesn't require any other imports or packages 
+    // to be installed. Examples include: Math, JSON, console, Date, window

@@ -75,3 +75,14 @@
 // ]
 
 // ########################################################################################
+
+// 12. Loop through the folloing array and display every item in it.
+//     Assume a paragraph element with the id of greeting-el
+
+// let sentence = ["Hello ", "my ", "name ", "is ", "..."] 
+
+// ########################################################################################
+
+// 13. Generate a random number and assign it to a variable
+
+// ########################################################################################
