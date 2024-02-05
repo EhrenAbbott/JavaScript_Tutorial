@@ -125,3 +125,21 @@
 
 // ########################################################################################
 
+// 22. Remove the first item of the following array. 
+//      Next, add an item to the beginning of an array.
+
+// let largeCountries = ["Tuvalu","India","USA","Indonesia","Monaco"]
+
+// ########################################################################################
+
+// 23. Working with the following button in html,
+//      a) assign the element to a JS variable 
+//      b) When clicked, make the button console.log something (via a function) 
+//      WITHOUT using onclick in the html
+
+//------index.html------
+// <button id="input-btn">SAVE INPUT</button>
+
+//-----index.js-----
+
+// ########################################################################################

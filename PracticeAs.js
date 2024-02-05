@@ -268,6 +268,39 @@
 
 // ########################################################################################
 
+// 22. Remove the first item of the following array. 
+//      Next, add an item to the beginning of an array.
+
+// let largeCountries = ["Tuvalu","India","USA","Indonesia","Monaco"]
+
+// largeCountries.shift()
+// largeCountries.unshift("China")
+
+// ########################################################################################
+
+// 23. Working with the following button in html,
+//      a) assign the element to a JS variable 
+//      b) When clicked, make the button console.log something (via a function) 
+//      WITHOUT using onclick in the html
+
+//------index.html------
+// <button id="input-btn">SAVE INPUT</button>
+
+//-----index.js-----
+// let inputBtn = document.getElementById("input-btn")
+
+// inputBtn.addEventListener("click", function() { 
+//     console.log("Clicked!")
+// })
+
+// NOTE: The first parameter, "click", is used to define what the 
+// specific event is that will trigger the function that follows.
+// The advantage of this way of doing things is that it results in a cleaner
+// separation of concerns, where the html has no event listeners
+
+// ########################################################################################
+
+
 
 // !VOCAB! 
 
@@ -389,3 +422,7 @@
 
 // logical operators: 
     // the symbols such as ||, &&, that check for certain conditions to be true or false
+
+// void / empty / self-closing (tag)
+    // a type of tag in HTML that does not requires a closing tag,
+    // such as <p></p> and instead exists sole with the opener, such as <input>
