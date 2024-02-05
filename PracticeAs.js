@@ -177,6 +177,64 @@
 
 // ########################################################################################
 
+// 14. Do the above, but expand the upper range range from .999 etc. to 100
+
+// let randomNumber = Math.random() * 100
+
+// NOTE: The lowest number remains 0, but now the upper limit is 99.9 repeater. 
+// The upper range will always be the number you multiple by minus .1 repeater
+
+// ########################################################################################
+
+// 15. Used a built in to take a number ending in a decimal, round it down, and assign it to a variable
+
+// let roundedNumber = Math.floor(4.999)
+
+// NOTE: .floor will always round DOWN no matter how many number there are after the decimal
+// and regardless of what the numbers are. 1.00000001 and 1.999999 would both 
+// become 1
+
+// ########################################################################################
+
+// 16. Generate a random number between 0 and 5.
+
+// let randomNum = Math.floor( Math.random() * 6 )
+
+// NOTE: Remember that because it is rounded down and inclusive of 0, the range will always
+// be from 0 to one less than the number being multiplied, in this case, 6.
+
+// ########################################################################################
+
+// 17. Generate a random number from a specific range: from 1 to 6.
+
+// let randomNumber = Math.floor( Math.random() * 6 ) + 1
+
+// NOTE: Since the lower limit naturally 0, we need to add 1 to make that the new lower range. 
+// So, the upper limit is determined by the multiplier, and the lower limit is the addend.
+
+// ########################################################################################
+
+// 18. Write an if statement that evaluate to true if two conditions are met
+
+// if (condition1 && condition2) { 
+//     console.log("yes")
+// } else { 
+//     console.log("no")
+// }
+
+// NOTE: Just saying if (condition1) etc. would be the same as saying
+// if (condition1 === true) etc.. The former is just shorthand for writing out the 
+// full Boolean.
+
+// ########################################################################################
+
+// 19. Write an if statment that evaluates to true if one of two conditions are met
+
+// if (condition1 === true || condition2 === true){ 
+//     console.log("yes")
+// }
+
+// ########################################################################################
 
 
 // !VOCAB! 

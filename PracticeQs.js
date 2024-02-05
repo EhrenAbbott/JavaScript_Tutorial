@@ -86,3 +86,27 @@
 // 13. Generate a random number and assign it to a variable
 
 // ########################################################################################
+
+// 14. Do the above, but expand the upper range range from .999 etc. to 100
+
+// ########################################################################################
+
+// 15. Used a built in to take a number ending in a decimal, round it down, and assign it to a variable
+
+// ########################################################################################
+
+// 16. Generate a random number between 0 and 5.
+
+// ########################################################################################
+
+// 17. Generate a random number from a specific range: from 1 to 6.
+
+// ########################################################################################
+
+// 18. Write an if statement that evaluate to true if two conditions are met
+
+// ########################################################################################
+
+// 19. Write an if statment that evaluates to true if one of two conditions are met
+
+// ########################################################################################
