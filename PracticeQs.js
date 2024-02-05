@@ -110,3 +110,18 @@
 // 19. Write an if statment that evaluates to true if one of two conditions are met
 
 // ########################################################################################
+
+// 20. Use dot notation to retrieve data from the  "lessons" key in the following object: 
+//      Then do the same but with bracket notation.
+
+// let course = {
+//     title: "Learn CSS Grid for free",
+//     lessons: 16
+// } 
+
+// ########################################################################################
+
+// 21. Create a method in an object and invoke it. 
+
+// ########################################################################################
+

@@ -236,6 +236,38 @@
 
 // ########################################################################################
 
+// 20. Use dot notation to log data from the  "lessons" key in the following object: 
+//      Then do the same but with bracket notation.
+
+// let course = {
+//     title: "Learn CSS Grid for free",
+//     lessons: 16
+// } 
+
+// console.log(course.lessons)
+//console.log(course["lessons"])
+
+// NOTE: with bracket notation the key name must be in quotes, but with dot notation 
+// it cannot be in quotes.
+// Dot notation is usually preferred unless bracket notation is required for specific reasons. 
+
+// ########################################################################################
+
+// 21. Create a method in an object and invoke it. 
+
+// let player = {
+//     sayHello: function() {
+//         console.log("Hello!")
+//     }
+// }
+
+// player.sayHello()
+
+// NOTE: The key essentially function as the method name when it comes to invoking it
+// and parentheses must go after it.
+
+// ########################################################################################
+
 
 // !VOCAB! 
 
@@ -306,7 +338,8 @@
     // Examples include: strings, numbers, and Booleans
 
 // method: 
-    // a function performed on an object
+    // a function performed on an object or a property containing 
+    // a function definition
 
 // step size: 
     // the third condition of a for loop to specifies the size of the increment
@@ -331,3 +364,28 @@
     // also called a "built-in", this is something that is naturally supported
     // by the language itself and doesn't require any other imports or packages 
     // to be installed. Examples include: Math, JSON, console, Date, window
+
+// key-value pair: 
+    // the sets of data within an object where the key is like a name (which
+    //  comes before the colon), and the value is the data (following the colon)
+    // that is associated with the key.
+
+// dot notation: 
+    // a way of retrieving data stored in a object. Ex: OBJ_NAME.KEY will give us the value, 
+    // which could be an integer, string, Boolean or any other data type.
+    // Typically preffered over bracket notation. 
+
+// bracket notation: 
+    // an alternate way of getting data from an object. Ex: OBJ_NAME["KEY"]
+
+// property (of an object): 
+    // a concept representing the keys and values contained within an object. 
+    // A property itself doesn't correspond to any concrete JS value, rather it
+    // is the association of key: "value" as a pair.
+
+// comparison operator: 
+    // refers to the group of symbols like <=, >=, === etc. that are used to 
+    // contrast values or quantities
+
+// logical operators: 
+    // the symbols such as ||, &&, that check for certain conditions to be true or false
