@@ -426,3 +426,10 @@
 // void / empty / self-closing (tag)
     // a type of tag in HTML that does not requires a closing tag,
     // such as <p></p> and instead exists sole with the opener, such as <input>
+
+// const vs. let (assigning variables)
+    // Const is used to make a a variable that cannot be later reassigned, wheras 
+    // let is used for variabels that can be reassigned
+    // The usage of these two variables also indicates the intentions of the programmer: 
+    // when you see let, you know the value will/should be reassigned later in the code.
+    // In general: if possible, use const. If not. use let.
