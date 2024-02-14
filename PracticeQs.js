@@ -143,3 +143,12 @@
 //-----index.js-----
 
 // ########################################################################################
+
+// 24.  Create an input field and a corresponding button to submit the input.
+//      Next, in the JS document, make the submit button push the input text to an array
+
+// ------index.html------
+
+// ------index.js------
+
+// ########################################################################################

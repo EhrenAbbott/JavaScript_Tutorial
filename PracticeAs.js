@@ -300,6 +300,28 @@
 
 // ########################################################################################
 
+// 24.  Create an input field and a corresponding button to submit the input.
+//      Next, in the JS document, make the submit button push the input text to an array
+
+// ------index.html------
+//<input type="text" id="input-el"></input>
+//<button id="input-btn">SAVE INPUT</button>
+
+// ------index.js------
+// const savedItems = []
+
+// const inputEl = document.getElementById("input-el")
+// const inputBtn = document.getElementById("input-btn")
+
+// inputBtn.addEventListener("click", function() { 
+//     savedItems.push(inputEl.value)
+// })
+
+// NOTE: The way to use the text that the user types into an input field 
+// is to use .value after the JS input element variable
+
+// ########################################################################################
+
 
 
 // !VOCAB! 
