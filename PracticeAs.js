@@ -322,6 +322,20 @@
 
 // ########################################################################################
 
+// 25. From the following array, render each item as list items in a unordered list.
+
+// let myLeads = ["www.awesomelead.com", "www.epiclead.com", "www.greatlead.com"]
+
+// for (let i = 0; i < myLeads.length; i++) {
+//     ulEl.innerHTML += "<li>" + myLeads[i] + "</li>"
+// }
+
+//NOTE: .innerHTML reads html tag in quotes as actual html elements, as opposed to other like
+// .textContent or .innerText, which would have literally rendered the characers <li> onto the page
+// instead of creating the desired elements with the correspodning content
+
+// ########################################################################################
+
 
 
 // !VOCAB! 

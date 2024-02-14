@@ -152,3 +152,10 @@
 // ------index.js------
 
 // ########################################################################################
+
+// 25. From the following array, render each item as list items in a unordered list.
+
+// let myLeads = ["www.awesomelead.com", "www.epiclead.com", "www.greatlead.com"]
+
+// ########################################################################################
+
