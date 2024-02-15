@@ -349,6 +349,19 @@
 
 // ########################################################################################
 
+// 27. Do number 25, but using a different JS method instead of .innerHTML. 
+//      This will involve making a brand new element in JS.
+
+// for (let i = 0; i < myLeads.length; i++) { 
+//     const li = document.createElement("li")
+//     li.textContent = myLeads[i]
+//     ulEl.append(li)
+// }
+
+// NOTE: When using .createElement, you are not using the HTML brackets as tags, but rather 
+// you are enclosing the contents of the <> inside quotation marks instead
+
+// ########################################################################################
 
 
 // !VOCAB! 

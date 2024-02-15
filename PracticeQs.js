@@ -163,3 +163,8 @@
 //      and, when clicked, render the text "Thank you!" under the button
 
 // ########################################################################################
+
+// 27. Do number 25, but using a different JS method instead of .innerHTML. 
+//      This will involve making a brand new element in JS.
+
+// ########################################################################################
