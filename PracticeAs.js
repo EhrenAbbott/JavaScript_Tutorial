@@ -390,6 +390,18 @@
 
 // ########################################################################################
 
+// 30. Write a template string  for a HTML link that opens in a new page and uses a JS variable 
+//      to indicate the web address.
+
+// listItems = ` 
+//     <a target='_blank' href='${myVar}'>
+//         Click here! 
+//     </a>
+// ` 
+// myDiv.innerHTML = listItems
+
+// ########################################################################################
+
 
 // !VOCAB! 
 
@@ -522,3 +534,9 @@
     // The usage of these two variables also indicates the intentions of the programmer: 
     // when you see let, you know the value will/should be reassigned later in the code.
     // In general: if possible, use const. If not. use let.
+
+// template string: 
+    // A way fo writing a string in a JS document that uses backticks instead of quotes to begin 
+    // and end the string. The main advantages are that you can break it up onto 
+    // multiple lines for legibility and that you can use ${} notation to insert 
+    // JS variables inside a template string of HTML tags

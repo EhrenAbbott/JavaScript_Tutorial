@@ -177,3 +177,8 @@
 //      the text that the user has entered 
 
 // ########################################################################################
+
+// 30. Write a template string  for a HTML link that opens in a new page and uses a JS variable 
+//      to indicate the web address.
+
+// ########################################################################################
