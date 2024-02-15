@@ -363,6 +363,24 @@
 
 // ########################################################################################
 
+// 28. Do The above, but manipualte the DOM *as little* as possible
+
+// let listItems = ""
+
+// for (let i = 0; i < myLeads.length; i++){ 
+//     listItems += "<li>" + myLeads[i] + "</li>"
+// }
+
+// ulEl.innerHTML = listItems
+
+//NOTE: Remember the guiding principle, "DOM manipulation comes at a cost".
+// With this in mind, it is good practice to see which of the possible strategies
+// manipulates the DOM the fewest number of instances, and this will typically be the 
+// optimal way fo doing things. In the above example, the DOM manipulation comes *outside* 
+// the for loop, which is better than doing it multiple individual times for each item in the array.
+
+// ########################################################################################
+
 
 // !VOCAB! 
 
