@@ -381,6 +381,15 @@
 
 // ########################################################################################
 
+// 29. Assuming a JS button element called inputBtn and a corresponding input element called inputEl, 
+//       write a function to clear the text that the user has entered in the input field
+
+// inputBtn.addEventListener("click", function(){ 
+//     inputEl.value = ""
+// })
+
+// ########################################################################################
+
 
 // !VOCAB! 
 
