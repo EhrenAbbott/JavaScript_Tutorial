@@ -159,3 +159,7 @@
 
 // ########################################################################################
 
+// 26. Assuming a div with the id "container", in the JS document, add a button in the div 
+//      and, when clicked, render the text "Thank you!" under the button
+
+// ########################################################################################

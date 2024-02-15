@@ -336,6 +336,19 @@
 
 // ########################################################################################
 
+// 26. Assuming a div with the id "container", in the JS document, add a button in the div 
+//      and, when clicked, render the text "Thank you!" under the button
+
+// const container = document.getElementById("container")
+
+// container.innerHTML = "<button onlick='buy()'>Buy!</button>"
+
+// function buy() { 
+//     container.innerHTML = "<p>Thank you!</p>"
+// }
+
+// ########################################################################################
+
 
 
 // !VOCAB! 
