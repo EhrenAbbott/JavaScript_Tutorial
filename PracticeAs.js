@@ -402,6 +402,13 @@
 
 // ########################################################################################
 
+// 31. Add an a data pair to local storage.
+
+localStorage.setItem("myLeads", "www.myleads.com")
+
+// NOTE:
+// ########################################################################################
+
 
 // !VOCAB! 
 
@@ -535,8 +542,23 @@
     // when you see let, you know the value will/should be reassigned later in the code.
     // In general: if possible, use const. If not. use let.
 
-// template string: 
+// template string (aka template literal): 
     // A way fo writing a string in a JS document that uses backticks instead of quotes to begin 
     // and end the string. The main advantages are that you can break it up onto 
     // multiple lines for legibility and that you can use ${} notation to insert 
-    // JS variables inside a template string of HTML tags
+    // JS variables inside a template string of HTML tags. This minimizes the alternating usage 
+    // of single and double quotes to escape strings, which is easier to both read and write. 
+
+// JSON: 
+    // Stands for "JavaScript Object Notation"
+    // It is a way of storing and sending data, often from a server to a client
+    // It looks similar to a JS object, but it isn't; it is just plain text formatted in a way that is typical 
+    // of JS objects. 
+    // Notice that the keys in the key-value pairs are in quotes, unlike in an actual JS object.
+
+// local storage: 
+    //
+    // values in the developer tools section of a webpage that are only available to the user's computer; by default, these values
+    // are not shared with other users who visit the same page. The date is listed as keys and values and sort fo functions 
+    // as a small local database.
+    // In the console, localStorage.clear() can be used to eliminate the stored data. 
