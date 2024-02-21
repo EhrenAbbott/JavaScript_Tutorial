@@ -629,11 +629,37 @@
     // remain accross page refreshes.
 
 // local storage: 
-    //
     // values in the developer tools section of a webpage that are only available to the user's computer; by default, these values
     // are not shared with other users who visit the same page. The date is listed as keys and values and sort fo functions 
     // as a small local database.
     // Values stored in local storage can *ONLY* be stored as strings.
     // To view these values for a webpage, you would use inspect, then go to the 'application'
     // tab then click on Local storage under "Storage" and then expand the dropdown arrow to pick 
-    // the current website.
+    // the current website. 
+
+// truthy and falsey (values): 
+    // There are values that are not strictly, technically true or false, but rather 
+    // are interpeted as true or false by JS:
+    // if (variable)  -- and the value of the variable has previously been declared as 0, 
+        // JS will interpret this as false, so it is considered a falsey.
+    // if ("a string") -  this is truthy. 
+    // if (var) - and the variable has been *declared* but *not* assigned a value (so just-- let var), 
+        // this is falsey 
+    // if (var) - and the variable has been declared and there is a value other than zero, this is truthy
+    // if (var) - and the variable has been declared as an empty string, this is falsey
+    // 
+    // *SUMMARY*: The six falsey values in JS are: false, 0, "", null, undefined, NaN 
+
+// null vs. undefined: 
+    // These are both falsey values an are both considered primitive data types. 
+    // They are also both used to signal emptiness.
+    // The critical deference is that null is how the developer indicates emptyness, 
+    // and undefined is how JS indicates emptiness.
+    // In other words, null is intentionally uses by the developer to indicate that
+    // a variable does not have a concrete value, such as let currentViewers = null, 
+    // which you might want to use in an if clause to trigger an action if, for example, 
+    // currentViewer gets reassigned to ["joey"]. Importantly, if currentViewer is an empty array, 
+    // this would evaluate to true, so in order for it to be interpreted as false, it would have to be null. 
+    // 
+    // If you declare a variable but don't assign it a value, when you go to use it JS will 
+    // tell you that it is undefined.
