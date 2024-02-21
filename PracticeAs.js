@@ -421,6 +421,27 @@
 
 // ########################################################################################
 
+// 32. Assume the template string let myLeads = `["www.awesomeleads.com"]`
+//  You want to push another website to this variable, but push can only be 
+// used with arrays. How would you circumvent this and successfully add another 
+// value to the variable as if it were an array and not a string? 
+// NOTE: this is a situation that may arise when working with local storage, 
+// as it only accepts strings and cannot be given an array.
+
+// let myLeads = `["www.awesomelead.com"]`
+
+// myLeads = JSON.parse(myLeads)
+
+// myLeads.push("www.epiclead.com")
+
+//NOTE: Now, the console.log for myLeads would yield the array ["www.awesomelead.com", "www.epiclead.com"]
+// Where thr backticks escape an special charatcers such as quotes or brackets, 
+// JSON.parse() sort fo tdoes the opposite and interprets the data 
+// as if nothing had been escaped. After that point, the .push method can be used since 
+// myLeads has become an array.
+
+// ########################################################################################
+
 
 // !VOCAB! 
 

@@ -188,3 +188,10 @@
 //      Lastly, clear the item.
 
 // ########################################################################################
+
+// 32. Assume the template string let myLeads = `["www.awesomeleads.com"]`
+//  You want to push another website to this variable, but push can only be 
+// used with arrays. How would you circumvent this and successfully add another 
+// value to the variable as if it were an array and not a string? 
+
+// ########################################################################################
