@@ -211,3 +211,10 @@
 // add a string to local storage. then console.log it
 
 // ########################################################################################
+
+// 36. Retrieve "myItem" from local storage (assume it has already be added) and set it as a variable 
+// that can be used as an array 
+
+// let myItem = `["www.site.com"]`
+
+// ########################################################################################

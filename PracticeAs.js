@@ -468,6 +468,15 @@
 
 // ########################################################################################
 
+// 36. Retrieve the value for "myItem" from local storage (assume it has already be added) and set it as a variable 
+// that can be used as an array 
+
+// let myItem = `["www.site.com"]`
+
+// let retrievedItem = JSON.parse(localStorage.getItem("myItem"))
+
+// ########################################################################################
+
 
 // !VOCAB! 
 
