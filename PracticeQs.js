@@ -206,3 +206,8 @@
 // let myLeads = ["www.awesomelead.com"]
 
 // ########################################################################################
+
+// 35. Assuming a button assigned to the JS variable myBtn, make the button 
+// add a string to local storage. then console.log it
+
+// ########################################################################################

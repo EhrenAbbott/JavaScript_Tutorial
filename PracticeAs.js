@@ -457,6 +457,17 @@
 
 // ########################################################################################
 
+// 35. Assuming a button assigned to the JS variable myBtn, make the button 
+// add a string to local storage. then console.log it
+
+// myString = "hello"
+// myBtn.addEventListener("click", function() { 
+//     localStorage.setItem("my_string", JSON.stringify(myString))
+//     console.log(localStorage.getItem("my_string"))
+// })
+
+// ########################################################################################
+
 
 // !VOCAB! 
 
