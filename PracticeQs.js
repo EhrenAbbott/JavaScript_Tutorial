@@ -195,3 +195,8 @@
 // value to the variable as if it were an array and not a string? 
 
 // ########################################################################################
+
+// 33. Check the data type of a variable and display it in the console, all in one line. 
+// let myLeads = `["www.awesomelead.com"]`
+
+// ########################################################################################
