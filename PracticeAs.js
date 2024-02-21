@@ -403,10 +403,22 @@
 // ########################################################################################
 
 // 31. Add an a data pair to local storage.
+//      Then, retrieve the value. 
+//      Lastly, clear the item.
 
-localStorage.setItem("myLeads", "www.myleads.com")
+// localStorage.setItem("myLeads", "www.myleads.com")
+// console.log(localStorage.getItem("myLeads"))
+// localStorage.clear()
 
-// NOTE:
+// NOTE: Notice that both the item and the value have the be strings. 
+// Also, if you add something with .setItem and then delete that code, 
+// that item will still be in localStorage. .clear() woudl have to be used 
+// to get rid of it.
+// 
+// Values added to localStorage can *ONLY* be added as strings; to store another
+// data type, such as an array, you would have to use JSON.stringify(var) on the array 
+// you want stored.
+
 // ########################################################################################
 
 
@@ -556,9 +568,16 @@ localStorage.setItem("myLeads", "www.myleads.com")
     // of JS objects. 
     // Notice that the keys in the key-value pairs are in quotes, unlike in an actual JS object.
 
+// persistence: 
+    // the concept that certain stored data, for example in local storage, will 
+    // remain accross page refreshes.
+
 // local storage: 
     //
     // values in the developer tools section of a webpage that are only available to the user's computer; by default, these values
     // are not shared with other users who visit the same page. The date is listed as keys and values and sort fo functions 
     // as a small local database.
-    // In the console, localStorage.clear() can be used to eliminate the stored data. 
+    // Values stored in local storage can *ONLY* be stored as strings.
+    // To view these values for a webpage, you would use inspect, then go to the 'application'
+    // tab then click on Local storage under "Storage" and then expand the dropdown arrow to pick 
+    // the current website.
