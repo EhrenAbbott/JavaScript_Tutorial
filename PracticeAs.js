@@ -449,6 +449,14 @@
 
 // ########################################################################################
 
+// 34. Use a method to concert the following array into a string:
+
+// let myLeads = ["www.awesomelead.com"]
+
+// myLeads = JSON.stringify(myLeads)
+
+// ########################################################################################
+
 
 // !VOCAB! 
 

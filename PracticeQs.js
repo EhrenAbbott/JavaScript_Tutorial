@@ -200,3 +200,9 @@
 // let myLeads = `["www.awesomelead.com"]`
 
 // ########################################################################################
+
+// 34. Use a method to concert the following array into a string:
+
+// let myLeads = ["www.awesomelead.com"]
+
+// ########################################################################################
