@@ -477,6 +477,25 @@
 
 // ########################################################################################
 
+// 37. Check to see if a value is truthy or falsey
+// console.log(Boolean("hello"))
+
+// ########################################################################################
+
+// 38. Assuming an html button with the id of "delete-btn", 
+//      make the button delete the contents of a list (const ulEl), 
+//      as well as localStorage when double clicked
+
+// const deleteBtn = document.getElementById("delete-btn")
+
+// deleteBtn.addEventListener("dblclick", function() { 
+//     localStorage.clear()
+//     ulEl = ""
+
+// })
+
+// ########################################################################################
+
 
 // !VOCAB! 
 

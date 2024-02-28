@@ -218,3 +218,13 @@
 // let myItem = `["www.site.com"]`
 
 // ########################################################################################
+
+// 37. Check to see if a value is truthy or falsey
+
+// ########################################################################################
+
+// 38. Assuming an html button with the id of "delete-btn", 
+//      make the button delete the contents of a list (const ulEl), 
+//      as well as localStorage when double clicked
+
+// ########################################################################################
