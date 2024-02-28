@@ -682,3 +682,12 @@
     // 
     // If you declare a variable but don't assign it a value, when you go to use it JS will 
     // tell you that it is undefined.
+
+// resusability: 
+    // the potential for a section of code to be utilized in the future 
+    // using different variables to execute its intended purpose; 
+    // For exmaple, functions that use hard coded values instead of dynamic values 
+    // have low reusability becuase they can only be used in a limited capacity. 
+    // Reusability can be enhanced by allowing functions to take arguments
+    // as opposed to writing the function without an argument and referencing a specific 
+    // variable in the body of the function. 
