@@ -515,6 +515,26 @@
 
 // ########################################################################################
 
+// 41. Assume a button named myBtn. When clicked, use the Chrome API 
+//      to console log the current browser tab the user is on.
+
+// myBtn.addEventListener("click", function(){ 
+//     chrome.tabs.query({active: true, currentWindow: true}, function(tabs){ 
+//         console.log(tabs)
+//     })
+// })
+
+// NOTE: chrome is an object that contains a key named 'tabs'. This key is also an object and contains 
+// a method called query(). To specifiy which particular tab we need,we use an object with the key fo active
+// to indicate the page we are currently one. We also indicate currentWindow to distinguish in the event that 
+// there is a separate window open with other tabs.
+// We are then making a function as the second argument 
+// that will run once the tab is specified (the job of the first argument in the query method).
+// The parameter, tabs, is given to us as a keyword by the Chrome API, and it is constructed 
+// as an object inside an array, witht he object having a URL key and corresponding value (see #40)
+
+// ########################################################################################
+
 
 
 // !VOCAB! 
