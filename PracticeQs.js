@@ -233,3 +233,11 @@
 //      Have the function console log the arguments into a sentence. 
 
 // ########################################################################################
+
+// 40. Console log a object value nested inside an array.
+
+// const tabs = [
+//     {url: "https://www.linkedin.com/in/per-harald-borgen/"}
+// ]
+
+// ########################################################################################

@@ -505,6 +505,18 @@
 
 // ########################################################################################
 
+// 40. Console log a object value nested inside an array.
+
+// const tabs = [
+//     {url: "https://www.linkedin.com/in/per-harald-borgen/"}
+// ]
+
+// console.log(tabs[0].url)
+
+// ########################################################################################
+
+
+
 // !VOCAB! 
 
 // to declare (a function, variable): 
