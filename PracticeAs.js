@@ -699,3 +699,8 @@
     // Reusability can be enhanced by allowing functions to take arguments
     // as opposed to writing the function without an argument and referencing a specific 
     // variable in the body of the function. 
+
+// parameters vs arguments: 
+    // Both terms are often used interchangably, howover the technical difference is that 
+    // a parameter is a variable that you defined when writing a function (in parentheses), 
+    // and an argument is a concrete value that you pass in when calling the function.
