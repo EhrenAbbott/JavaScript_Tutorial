@@ -228,3 +228,8 @@
 //      as well as localStorage when double clicked
 
 // ########################################################################################
+
+// 39. Create a functions that takes multiple parameters. 
+//      Have the function console log the arguments into a sentence. 
+
+// ########################################################################################

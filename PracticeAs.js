@@ -496,6 +496,14 @@
 
 // ########################################################################################
 
+// 39. Create a functions that takes multiple parameters. 
+//      Have the function console log the arguments into a sentence. 
+
+// function greetUser(greeting, name) { 
+//     console.log(`${greeting}, ${name}!`)
+// }
+
+// ########################################################################################
 
 // !VOCAB! 
 
@@ -686,7 +694,7 @@
 // resusability: 
     // the potential for a section of code to be utilized in the future 
     // using different variables to execute its intended purpose; 
-    // For exmaple, functions that use hard coded values instead of dynamic values 
+    // For example, functions that use hard coded values instead of dynamic values 
     // have low reusability becuase they can only be used in a limited capacity. 
     // Reusability can be enhanced by allowing functions to take arguments
     // as opposed to writing the function without an argument and referencing a specific 
