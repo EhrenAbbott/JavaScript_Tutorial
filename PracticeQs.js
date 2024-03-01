@@ -266,3 +266,8 @@
 // 44. Use a method to convert let digits = "456,345" to a number (not a string)
 
 // ########################################################################################
+
+// 45. Assume a JS document with functions. Add the correct tag to the HTML so that the JS functions may 
+//      be exorted and imported to other files in the project.
+
+// ########################################################################################

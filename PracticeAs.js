@@ -582,6 +582,13 @@
 
 // ########################################################################################
 
+// 45. Assume a JS document with functions. Add the correct tag to the HTML so that the JS functions may 
+//      be exorted and imported to other files in the project.
+
+{/* <script src="filename.js" type="module"></script> */}
+
+// ########################################################################################
+
 
 
 // !VOCAB! 
