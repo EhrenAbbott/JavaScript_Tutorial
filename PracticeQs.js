@@ -246,3 +246,15 @@
 //      to console log the current browser tab the user is on.
 
 // ########################################################################################
+
+// 42. Starting with an array of image files, img, and assuming an HTMl div with the 
+//      id of container, make a function that dynamically renders all of the 
+//      items in the array in the container.
+
+// const imgs = [
+//     "images/hip1.jpg",
+//     "images/hip2.jpg",
+//     "images/hip3.jpg"
+// ]
+
+// ########################################################################################
