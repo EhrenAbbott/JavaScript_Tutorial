@@ -271,3 +271,40 @@
 //      be exorted and imported to other files in the project.
 
 // ########################################################################################
+
+// 46.  Assume an app with the HTML already correctly formated to take an input with a corresponding submit button.
+//      In an index.js file, what would you write to connect the app to your firebase project (assuming it has already been made)
+
+// import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"
+// import { getDatabase, ref, push } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
+
+// const appSettings = {
+//     databaseURL: "https://grocerylistapp-4e6af-default-rtdb.firebaseio.com/"
+// }
+
+// const app = initializeApp(appSettings)
+// const database = getDatabase(app)
+// const moviesInDB = ref(database, "movies")
+
+//NOTE: Critically, the databaseURL will be the specific URL given to you by firebase when you set up a new project on their website. 
+// The websites and the imports are not specific to your project and will be the same for other projects. 
+// The names of the last three variables can be anything, and the second argument of ref will be the name you 
+// choose for the database field.  
+
+// const inputFieldEl = document.getElementById("input-field")
+// const addButtonEl = document.getElementById("add-button")
+
+// addButtonEl.addEventListener("click", function() {
+//     let inputValue = inputFieldEl.value
+    
+//     push(moviesInDB, inputValue)
+    
+//     console.log(`${inputValue} added to database`)
+// })
+
+//The only part in the previous block of code that is particular to firebase would be the push() method with 
+// its 2 arguments. The is just to give an idea of a complete set up for connecting firebase and having a 
+// button that adds an input to the database. 
+
+// ########################################################################################
+
