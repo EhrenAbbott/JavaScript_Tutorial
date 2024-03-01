@@ -559,6 +559,22 @@
 
 // ########################################################################################
 
+// 43. Round the number 430.698789 to two decimals.
+
+// const num = 430.698789
+// console.log(num.toFixed(2))
+
+// NOTE: the difference between Math.floor() or Math.ceil() and .toFixed() is that the 
+// first two actually just truncate a decimal into a whole number, and .toFixed() actually rounds 
+// the number up or down the the decimal place indicated in the parenthses. 
+// Math.floor(1.9999) would yield 1, and Math.ceil(1.1111) woudl yield 2, which 
+// brings the number up or down to the next whole number regardless of which numbers 
+// follow the decimal. However, .toFixed() actually uses the convention of rounding based on if the 
+// decimal in question is five or greater. So 3.2229.toFixed(3) would yield 3.2223, and 3.2221.toFixed(3)
+// would yield 3.222 .
+
+// ########################################################################################
+
 
 
 // !VOCAB! 
