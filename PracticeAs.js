@@ -643,6 +643,13 @@
 
 // ########################################################################################
 
+// #48. Import the firebase method that allows you to fetch data stored in your linked firebase project. 
+//      Next, console log the values of these object values from firebase.
+
+import {  } from 
+
+// ########################################################################################
+
 
 
 // !VOCAB! 
@@ -844,3 +851,7 @@
     // Both terms are often used interchangably, howover the technical difference is that 
     // a parameter is a variable that you defined when writing a function (in parentheses), 
     // and an argument is a concrete value that you pass in when calling the function.
+
+
+// snapshot: 
+    // The data currently in a database at a specific moment in time.
