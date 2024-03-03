@@ -670,10 +670,7 @@
 //     newEl.textContent = itemVal
 
 //     shoppingListEl.append(newEl)
-
-
 // }
-
 
 //NOTE: There are three basic steps for using createElement: 
 // 1. createElement needs to be applied to the document object, so it starts with document.createElement. Then you decide
@@ -681,6 +678,31 @@
 // 2. Then you have to give the new item some text content. 
 // 3. Lastly, the newly created element has to be placed in its parent element. 
 // ########################################################################################
+
+// 50. Assume a button representing an item in a Firebase database. 
+// When clicked, make the button console log that specific item's location in the database. 
+// and make it so that that item gets deleted from the database. 
+
+// The field/category in the database is called "shoppingList"
+// There is already a variable caled itemID that represents the unique key. 
+// The button element is assigned the the variable "newEl"
+
+// import { ref, remove } from '...'
+
+// newEl.addEventListener("click", function() { 
+//     let itemsExactLocationInDB = ref(database, `shoppingList/${itemID}`)
+
+//     remove(itemsExactLocationInDB)
+// })
+
+//NOTE: Rememeber to locate an item in Firebase you have to import the ref method, which will always 
+// take "database" as its first argument. 
+// The second argument here will be the category/field name, in this case 'shoppingList' *PLUS*
+// a foreward slash followed by the items ID. 
+// Once that is specified, you simply have to import the remove method, which takes the db location as its only 
+// argument.
+// ########################################################################################
+
 
 
 

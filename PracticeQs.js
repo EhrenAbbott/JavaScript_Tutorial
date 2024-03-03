@@ -301,3 +301,14 @@
 // adds it to into the ul.
 
 // ########################################################################################
+
+// 50. Assume a button representing an item in a database. 
+// When clicked, make the button console log that specific item's location in the database. 
+// and make it so that that item gets deleted from the database. 
+
+// The field/category in the database is called "shoppingList"
+// There is already a variable caled itemID that represents the unique key. 
+// The button element is assigned the the variable "newEl"
+
+
+// ########################################################################################
