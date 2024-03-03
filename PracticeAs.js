@@ -644,10 +644,42 @@
 // ########################################################################################
 
 // #48. Import the firebase method that allows you to fetch data stored in your linked firebase project. 
-//      Next, console log the values of these object values from firebase.
+//      Next, fetch the object values and add them to a new array.
+//      Assume the variable shoppinListInDB.
 
-import {  } from 
+// import { getDatabase, ref, push, onValue } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
 
+// onValue(shoppingListInDB, function(snapshot){ 
+//     let itemsArray = Object.values(snapshot.val())
+// })
+
+// NOTE: Just due to the nature of how onValue works, you have to add .val() after the argument in Object.values in order 
+// to correctly retrieve the values. 
+
+// ########################################################################################
+
+// # 49. Assuming an unordered list assignd to the const shoppingListEl, and multiple arrays (corresponding to each list item)
+// that consist of a key (unique ID)  and value (item name), write a function that makes a new element for each item and 
+// adds it to into the ul.
+
+// function addShoppingItem(item){ 
+//     let itemVal = item[1] 
+
+//     let newEl = document.createElement("li")
+
+//     newEl.textContent = itemVal
+
+//     shoppingListEl.append(newEl)
+
+
+// }
+
+
+//NOTE: There are three basic steps for using createElement: 
+// 1. createElement needs to be applied to the document object, so it starts with document.createElement. Then you decide
+// which element you want to make. 
+// 2. Then you have to give the new item some text content. 
+// 3. Lastly, the newly created element has to be placed in its parent element. 
 // ########################################################################################
 
 

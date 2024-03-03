@@ -294,13 +294,10 @@
 //      Next, fetch the object values and add them to a new array.
 //      Assume the variable shoppinListInDB.
 
-// import { getDatabase, ref, push, onValue } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
+// ########################################################################################
 
-// onValue(shoppingListInDB, function(snapshot){ 
-//     let itemsArray = Object.values(snapshot.val())
-// })
-
-// NOTE: Just due to the nature of how onValue works, you have to add .val() after the argument in Object.values in order 
-// to correctly retrieve the values. 
+// # 49. Assuming an unordered list assignd to the const shoppingListEl, and multiple arrays (corresponding to each list item)
+// that consist of a key (unique ID)  and value (item name), write a function that makes a new element for each item and 
+// adds it to into the ul.
 
 // ########################################################################################
