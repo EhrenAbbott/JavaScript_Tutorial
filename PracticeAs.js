@@ -655,6 +655,7 @@
 
 // NOTE: Just due to the nature of how onValue works, you have to add .val() after the argument in Object.values in order 
 // to correctly retrieve the values. 
+// IMPORTANT: whenenever the database is changed, onValue runs every time. 
 
 // ########################################################################################
 
@@ -701,6 +702,23 @@
 // a foreward slash followed by the items ID. 
 // Once that is specified, you simply have to import the remove method, which takes the db location as its only 
 // argument.
+// ########################################################################################
+
+// 51. Use a method to see if there are any items in the firebase db. 
+//      If there are items, console log "yes", if not, log "no"
+
+// onValue(shoppingListinDB, function(snapshot){ 
+//     if (snapshot.exists()){ 
+//         console.log("yes")
+//     } else { 
+//         console.log("no")
+//     }
+// })
+
+//NOTE: snapshot.exists() is a method that comes with the imported firebase objects. 
+// Remember that onValue() is the initial line that connects our project to the database, 
+// so after that has been established, we can check to see if there are any items in it with snapshot.exists()
+
 // ########################################################################################
 
 
