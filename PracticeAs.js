@@ -721,6 +721,15 @@
 
 // ########################################################################################
 
+// 52. Add an event listener to a button element that can only run once
+
+// let btn = document.getElementById("btn")
+// btn.addEventListener("click", function(){ 
+//     //function details
+// }, {once: true});
+
+// ########################################################################################
+
 
 
 
@@ -927,3 +936,6 @@
 
 // snapshot: 
     // The data currently in a database at a specific moment in time.
+
+// favicon: 
+    // the small graphic that appears on the tab of a webpage to the left of the site name()
