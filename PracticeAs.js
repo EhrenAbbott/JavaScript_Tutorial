@@ -800,7 +800,7 @@
 
 // ########################################################################################
 
-// 58. Access data a user submits in a form. 
+// 58. Assign the data a user submits in a form to  const.
 //      Assume the form has the ID of login-form.
 
 // const loginForm = document.getElementById('login-form')
@@ -815,7 +815,25 @@
 // - The keyword 'new' is required bc FormData() is a constructor function, which are slightly different 
 // than normal functions.
 // - At this point, the loginDataForm will not display when console logged as a normal object 
-// would. Accessing this data will be covered later. 
+// would. 
+
+// ########################################################################################
+
+// 59. Building off of 59, how would you console.log a specific data field from the form?
+
+// const loginForm = document.getElementById('login-form')
+
+// loginForm.addEventListener('submit', function(e){
+//     e.preventDefault()
+//     const loginFormData = new FormData(loginForm)
+    
+//     const name = loginFormData.get('astronautName')
+//     console.log(name) 
+
+// })
+
+// NOTE: The arugment of the .get() method has to be the *NAME* attribute of the HTML input element. 
+
 // ########################################################################################
 
 
