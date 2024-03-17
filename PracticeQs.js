@@ -339,3 +339,10 @@
 // Assume a form element with the id of 'login-form'
 
 // ########################################################################################
+
+// 56. When you have two buttons in a form- even if they are not both 
+// submit buttons- the default behavior of the buttons is to submit, and 
+// and event listeners triggered by a submit will act on either of them.
+// What do you add to a button to prevent this default befault (submitting)?
+
+// ########################################################################################

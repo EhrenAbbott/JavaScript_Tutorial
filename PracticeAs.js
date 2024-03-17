@@ -777,6 +777,17 @@
 // the 'e' in the function can also be written as 'event' and this represents the event that caused this
 // event listener to trigger, in this case the submit button.
 // - preventDefault() is a built-in JS function.
+// - Notice that the event listener is on the form itself and not on the 
+// submit button
+
+// ########################################################################################
+
+// 56. When you have two buttons in a form- even if they are not both 
+// submit buttons- the default behavior of the buttons is to submit, and 
+// and event listeners triggered by a submit will act on either of them.
+// What do you add to a button to prevent this default befault (submitting)?
+
+{/* <button type="button">Decline</button> */}
 
 // ########################################################################################
 
