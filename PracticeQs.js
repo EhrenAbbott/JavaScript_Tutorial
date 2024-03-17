@@ -332,3 +332,10 @@
 // not visible)
 
 // ########################################################################################
+
+// 55. The default behavior of an HTML form is to take all of the information that the user
+// entered an add it into the URL; this is obviously not good, so how do we prevent this from 
+// happening?
+// Assume a form element with the id of 'login-form'
+
+// ########################################################################################

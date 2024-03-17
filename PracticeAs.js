@@ -756,12 +756,37 @@
 // property, which gets set to 'none.' Here the event listener is simply 
 // targeting the button and the function argument is interacting with the CSS 
 // property with .style in order to change it into block so that it become visible. 
+// - Hyphenated CSS properties cannot remain hyphenated in the JS, so instead 
+// they will usually be written in camel case. For example, background-color in CSS, 
+// becomes backgroundColor in JS.
+
+// ########################################################################################
+
+// 55. The default behavior of an HTML form is to take all of the information that the user
+// entered an add it into the URL; this is obviously not good, so how do we prevent this from 
+// happening?
+// Assume a form element with the id of 'login-form'
+
+// const loginForm = document.getElementById("login-form")
+
+// loginForm.addEventListener("submit", function(e){ 
+//     e.preventDefault()
+// })
+
+// NOTE: Here, the event that is being listened for is not a click but rather a submission; 
+// the 'e' in the function can also be written as 'event' and this represents the event that caused this
+// event listener to trigger, in this case the submit button.
+// - preventDefault() is a built-in JS function.
+
 // ########################################################################################
 
 
-
-
 // !VOCAB! 
+
+// validation attributes: 
+    // These are attributes added to HTML input elements that establish certain
+    // requirements for the entered information, such as the minimum length (minlength), 
+    // maximumlength (maxlength), minium and maximum cardinal numbers (min and max) etc.
 
 // modal: 
         // essentially pop-up windows (except they have an intended 
