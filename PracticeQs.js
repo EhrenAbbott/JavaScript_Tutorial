@@ -321,3 +321,8 @@
 // 52. Add an event listener to a button element that can onyl run once
 
 // ########################################################################################
+
+// 53. What method would you use to execute the delay of a particular piece of code? 
+// What arguments does this method take?
+
+// ########################################################################################

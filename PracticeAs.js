@@ -702,6 +702,7 @@
 // a foreward slash followed by the items ID. 
 // Once that is specified, you simply have to import the remove method, which takes the db location as its only 
 // argument.
+
 // ########################################################################################
 
 // 51. Use a method to see if there are any items in the firebase db. 
@@ -727,6 +728,15 @@
 // btn.addEventListener("click", function(){ 
 //     //function details
 // }, {once: true});
+
+// ########################################################################################
+
+// 53. What method would you use to execute the delay of a particular piece of code? 
+// What arguments does this method take?
+
+//setTimeout()
+// The first argument is a function, and the second is the specified 
+// delay duration in milliseconds.
 
 // ########################################################################################
 
