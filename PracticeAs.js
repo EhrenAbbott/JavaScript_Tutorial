@@ -885,6 +885,41 @@
 
 // ########################################################################################
 
+// 62. Assume a div of multiple vertical child divs of different shades of blue. 
+// When hovering the cursor over the parent div, how would you make it so that 
+// the vertical divs flip on the horizontal access? 
+
+
+// //-----CSS-----
+// .reverse { 
+//     flex-direction: row-reverse;
+// }
+
+// //-----HTML-----
+
+//     <div class="container reverse" id="container">
+// 		<div class="palette-section blue-1"></div>
+// 		<div class="palette-section blue-2"></div>
+// 		<div class="palette-section blue-3"></div>
+// 		<div class="palette-section blue-4"></div>
+// 		<div class="palette-section blue-5"></div>
+// 	</div>
+
+// //-----JS-----
+
+// const container = document.getElementById('container')
+
+// container.addEventListener("mouseenter", function(){ 
+//     container.classList.toggle('reverse')
+// })
+
+//NOTE: The classList property is what allows us to access the CSS styling of the 
+// equivalent JS variable. Then, the .toggle allows us to turn a particular 
+// CSS attribute on or off, and this particular attribute is names in quotes
+// as the argument.
+
+// ########################################################################################
+
 
 
 // !VOCAB! 

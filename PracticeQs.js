@@ -388,3 +388,28 @@
 </div> */}
 
 // ########################################################################################
+
+// 62. Assume a div of multiple vertical child divs of different shades of blue. 
+// When hovering the cursor over the parent div, how would you make it so that 
+// the vertical divs flip on the horizontal access? 
+
+
+//-----CSS-----
+
+
+//-----HTML-----
+
+<div class="container" id="container">
+    <div class="palette-section blue-1"></div>
+    <div class="palette-section blue-2"></div>
+    <div class="palette-section blue-3"></div>
+    <div class="palette-section blue-4"></div>
+    <div class="palette-section blue-5"></div>
+</div>
+
+//-----JS-----
+
+const container = document.getElementById('container')
+
+
+// ########################################################################################
