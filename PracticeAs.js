@@ -791,6 +791,15 @@
 
 // ########################################################################################
 
+// 57. Access an HTML element with its id and set its text in *ONE* line.
+
+// document.getElementById('description-text').innerText = "TEXT HERE!"
+
+// NOTE: Establishing a a const for and HTML isn't actually always necessary, and it is
+// possible to combine that with the innerText property (or other properties/methods) in the same line.
+
+// ########################################################################################
+
 
 // !VOCAB! 
 
