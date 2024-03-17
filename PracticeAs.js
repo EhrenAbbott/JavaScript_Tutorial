@@ -740,10 +740,32 @@
 
 // ########################################################################################
 
+// 54. Assume you have the HTML elements to create a button and a modal. 
+//  Make it so that, when clicked, the bottom will make the modal appear (that is otherwise
+// not visible)
+
+// const revealBtn = document.getElementById('reveal-btn')
+// const answer = document.getElementById('answer')
+
+// revealBtn.addEventListener("click", function(){ 
+//     answer.style.display = 'block'
+// })
+
+// NOTE: The important syntax that we are using here is ELEMENT.style.PROPERTY = 'VALUE'
+// Remember that the property that allows a modal to not be visible is the display 
+// property, which gets set to 'none.' Here the event listener is simply 
+// targeting the button and the function argument is interacting with the CSS 
+// property with .style in order to change it into block so that it become visible. 
+// ########################################################################################
+
 
 
 
 // !VOCAB! 
+
+// modal: 
+        // essentially pop-up windows (except they have an intended 
+        // purpose triggered by a user action ad arent just there to annoy you)
 
 // to declare (a function, variable): 
         // to write out or create a function or variable without neccessarily using it (function) or 

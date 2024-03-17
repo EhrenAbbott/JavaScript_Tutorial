@@ -326,3 +326,9 @@
 // What arguments does this method take?
 
 // ########################################################################################
+
+// 54. Assume you have the HTML elements to create a button and a modal. 
+//  Make it so that, when clicked, the bottom will make the modal appear (that is otherwise
+// not visible)
+
+// ########################################################################################
