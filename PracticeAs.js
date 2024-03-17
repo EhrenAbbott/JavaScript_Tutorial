@@ -843,6 +843,49 @@
 
 // ########################################################################################
 
+// 61. Imagine a ecommerce site where you can add a certain number of product to your cart. 
+// How would you make it so the decrement button is greyed out when the number of items is 0? 
+// How woudl you make it so that the number cannot go below 0?
+// Start off with the following const for the add button, the subtract button, and the number display
+// element.
+
+//-----JS-----
+
+// const decrement = document.getElementById('decrement')
+// const increment = document.getElementById('increment')
+// const quantityDisplay = document.getElementById('quantity-display')
+
+// let quantity = 0
+
+// decrement.addEventListener("click", function() { 
+//     quantity --
+//     if (quantity === 0){ 
+//         decrement.disabled = true
+//     }
+//     quantityDisplay.innerText = quantity
+// })
+
+// increment.addEventListener("click", function(){ 
+//     quantity ++ 
+//     decrement.disabled = false
+//     quantityDisplay.innerText = quantity
+// })
+
+//-----HTML-----
+
+{/* <div class="buttons">
+	<button class="quantityBtn" id="decrement" disabled>-</button>
+	<span class="quantity-display" id="quantity-display">0</span>
+	<button class="quantityBtn" id="increment">+</button>
+</div> */}
+
+
+// NOTE: The disabled attribute is a boolean and can be accessed in JS 
+// by ELEMNENT_NAM.disabled and then changing the value to either true or false. 
+
+// ########################################################################################
+
+
 
 // !VOCAB! 
 
