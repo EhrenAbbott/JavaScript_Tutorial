@@ -800,6 +800,24 @@
 
 // ########################################################################################
 
+// 58. Access data a user submits in a form. 
+//      Assume the form has the ID of login-form.
+
+// const loginForm = document.getElementById('login-form')
+
+// loginForm.addEventListener('submit', function(event){ 
+//     event.preventDefault()
+
+//     const loginDataForm = new FormData(loginForm)
+// })
+
+// NOTE: FormData() is a special type function that returns an object with all of the form data.
+// - The keyword 'new' is required bc FormData() is a constructor function, which are slightly different 
+// than normal functions.
+// - At this point, the loginDataForm will not display when console logged as a normal object 
+// would. Accessing this data will be covered later. 
+// ########################################################################################
+
 
 // !VOCAB! 
 
