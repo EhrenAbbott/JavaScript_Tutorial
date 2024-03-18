@@ -437,6 +437,23 @@ const container = document.getElementById('container') */}
 // #64. Create a functions that iterates over the following array of dogs 
 // and renders then to a div with the id of 'dog-div'
 
-const dogArray = ["lab", "pitbull", "australian blue heeler", "golden retriever"]
+// const dogArray = ["lab", "pitbull", "australian blue heeler", "golden retriever"]
+
+// ########################################################################################
+
+// #65. Add whatever is necessary to export dogsArray from the data.js file 
+// and import it into index.js. Assume all files are in the same folder.
+
+//-----index.js----- 
+
+//-----data.js-----
+
+// const dogArray = ["lab", "pitbull", "australian blue heeler", "golden retriever"]
+
+//-----index.html-----
+
+{/* <body>
+	<script src="index.js"></script>
+</body> */}
 
 // ########################################################################################

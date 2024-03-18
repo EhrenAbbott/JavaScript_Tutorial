@@ -973,6 +973,29 @@
 
 // ########################################################################################
 
+// #65. Add whatever is necessary to export dogsArray from the data.js file 
+// and import it into index.js. Assume all files are in the same folder.
+
+//-----index.js----- 
+// import { dogArray } from '/data.js'
+
+//-----data.js-----
+
+//  export const dogArray = ["lab", "pitbull", "australian blue heeler", "golden retriever"]
+
+//-----index.html-----
+
+{/* <body>
+	<script src="index.js" type="module"></script>
+</body> */}
+
+//NOTE: This method is not just used for const but for functions and other things as well. 
+// -Remember the type attribute in the script tag! This can be easy to forget!
+// -Modular code has to be run on a server, so if you take this offline and try to
+// run it locally, you will get an error. You can set up a local server on your computer with Live Server.
+
+// ########################################################################################
+
 
 
 // !VOCAB! 
