@@ -1180,9 +1180,26 @@
 // that can be iterated throguh like a normal array in this case. This is
 // why we have to pair this with a for/of loop in order to make the appropriate
 // changes to all of the elements of the specified class.
+
 //########################################################################################
 
+// #76 On a submit button, add an event listener that console logs 
+// the a selected input that has a type set to "radio".
 
+// submitBtn.addEventListener("click", function(){ 
+//     document.querySelector('input[type="radio"]:checked')
+// })
+
+
+// NOTE: querySelector is a more powerful way of grabbing elements bc it allows 
+// us to include pseudoelements in our search. This allows to do things like grab 
+// and input element whose type is "radio", which would not be possible with .getElementById
+// NOTE: the syntx of grabbing this element is: type of element --> in brackets:
+// attribute_name="attribute_value" --> :checked     . All of this goes in quotes, 
+// so it is important to alternate between single and double quotes for the query selector and
+// the attribute value. 
+
+//########################################################################################
 
 // !VOCAB! 
 
