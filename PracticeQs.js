@@ -541,3 +541,12 @@ const container = document.getElementById('container') */}
 // How would you solve this?
 
 //########################################################################################
+
+// # 78 Checkbox inputs behave slightly differently because they are boolean. 
+// Assumign the following elements, console log "checked" if the box has been 
+// checked or "not checked" if the opposite is true. 
+
+// const continueBtn = document.getElementById('continue-btn')
+// const acceptTerms = document.getElementById('accept-terms')
+
+//########################################################################################

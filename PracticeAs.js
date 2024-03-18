@@ -1218,6 +1218,31 @@
 // }
 
 //########################################################################################
+
+// # 78 Checkbox inputs behave slightly differently because they are boolean. 
+// Assumign the following elements, console log "checked" if the box has been 
+// checked or "not checked" if the opposite is true. 
+
+// const continueBtn = document.getElementById('continue-btn')
+// const acceptTerms = document.getElementById('accept-terms')
+
+// continueBtn.addEventListener("click", function(){ 
+//     if (acceptTerms.checked){ 
+//         console.log("checked")
+//     } else { 
+//         console.log("not checked")
+//     }
+// })
+
+// NOTE: To ascertain that a box has been checked, you have to 
+// take its element const and use the .checked property, which
+// returns a boolean.
+
+//########################################################################################
+
+
+
+
 // !VOCAB! 
 
 // logical NOT operator: 
