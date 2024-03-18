@@ -1060,9 +1060,33 @@
 
 // ########################################################################################
 
+// #69 Complete #68 but refactor it to use the logical not operator so that it is more concise
+
+// const itemInput = document.getElementById('item-input')
+// const addItemBtn = document.getElementById('add-item-btn')
+
+// const shoppingList = []
+
+// addItemBtn.addEventListener("click", function(){ 
+//     if (!(shoppingList.includes(itemInput.value))){ 
+//         shoppingList.push(itemInput.value)
+//     }
+// })
+
+// NOTE: Notice that approach of using the not operator is more concise, as it eliminates
+// the need to create an explicit 'else' block.
+
+//########################################################################################
 
 
 // !VOCAB! 
+
+// logical NOT operator: 
+    // This is the '!' used to check for something that is NOT present. When
+    // using, for example in an if statement, the ! CAN exist in its own layer of 
+    // parentheses followed by the condition it is refering to: if (!(2 > 3))
+    // This is optional though, and the parentheses just for the NOT operator can be eliminated
+    // altogether
 
 // trailing comma: 
     // This is a comma that comes after the last item in an array 

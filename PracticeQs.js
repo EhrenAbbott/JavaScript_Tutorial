@@ -484,3 +484,12 @@ const container = document.getElementById('container') */}
 // const shoppingList = []
 
 // ########################################################################################
+
+// #69 Complete #68 but refactor it to use the logical not operator so that it is more concise
+
+// const itemInput = document.getElementById('item-input')
+// const addItemBtn = document.getElementById('add-item-btn')
+
+// const shoppingList = []
+
+//########################################################################################
