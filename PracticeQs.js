@@ -516,3 +516,12 @@ const container = document.getElementById('container') */}
 // and responds by adding a CSS class called 'read' to that element's parent element. 
 
 //########################################################################################
+
+// #74 Create a click event listener that does not use an anonymous function, but rather 
+// a function you have already defined elsewhere. 
+// Assume the function console logs the id of the clicked item. 
+// What do you have to take into consideration when using a function this way
+// in an event listener?
+
+//########################################################################################
+

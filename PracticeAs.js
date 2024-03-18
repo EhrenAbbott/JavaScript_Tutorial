@@ -1146,6 +1146,26 @@
 
 //########################################################################################
 
+// #74 Create a click event listener that does not use an anonymous function, but rather 
+// a function you have already defined elsewhere. 
+// Assume the function console logs the id of the clicked item. 
+// What do you have to take into consideration when using a function this way
+// in an event listener?
+
+// myContainer.addEventListener("click", logId)
+
+// function logId(e){ 
+//     console.log(e.target.id)
+// }
+
+// NOTE: Important!  Notice how you do *NOT* use parentheses after putting the 
+// named function in the event listener! This is bc the parentheses would make it so
+// that the function automatically get invoked *IMMEDIATELY* and does not depend 
+// on the click.
+
+//########################################################################################
+
+
 
 // !VOCAB! 
 
