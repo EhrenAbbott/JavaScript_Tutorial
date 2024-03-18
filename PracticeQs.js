@@ -469,3 +469,8 @@ const container = document.getElementById('container') */}
 // with the actual circle that it accompanies. 
 
 // ########################################################################################
+
+// #67 Use a JS method to see if the following array contains the item 'hamburger'
+// What you console.log'd this out, what would it return?
+
+// ########################################################################################

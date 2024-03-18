@@ -1030,6 +1030,18 @@
 
 // ########################################################################################
 
+// #67 Use a JS method to see if the following array contains the item 'hamburger'
+// What you console.log'd this out, what would it return?
+
+// const myArr = ["pizza", "hamburger", "ice cream", "cake"]
+
+// myArr.includes("pizza")
+
+// NOTE: Console logging the .includes method in use would yield true or false because
+// (aka it is a boolean)
+
+// ########################################################################################
+
 
 // !VOCAB! 
 
