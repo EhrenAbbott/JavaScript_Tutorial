@@ -399,7 +399,7 @@
 
 //-----HTML-----
 
-<div class="container" id="container">
+{/* <div class="container" id="container">
     <div class="palette-section blue-1"></div>
     <div class="palette-section blue-2"></div>
     <div class="palette-section blue-3"></div>
@@ -409,7 +409,27 @@
 
 //-----JS-----
 
-const container = document.getElementById('container')
+const container = document.getElementById('container') */}
 
+
+// ########################################################################################
+
+// #63. Given the follow array, which contains objects, that each have an array as
+// one of their key values, iterate over the parent array to console log each object. 
+// Next, iterate over the powers key to console log each indivdual power from that array.
+// NOTE: do not use the "for (let x = 0; x < ARR.length; x++)" way of iterating.
+
+const characters = [
+    {
+        title: 'Ninja',
+        emoji: '🥷',
+        powers: ['agility', 'stealth', 'aggression'],
+    },
+    {
+        title: 'Sorcerer',
+        emoji: '🧙',
+        powers: ['magic', 'invisibility', 'necromancy'],
+    } 
+]
 
 // ########################################################################################

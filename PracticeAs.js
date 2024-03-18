@@ -897,7 +897,7 @@
 
 // //-----HTML-----
 
-//     <div class="container reverse" id="container">
+// <div class="container" id="container">
 // 		<div class="palette-section blue-1"></div>
 // 		<div class="palette-section blue-2"></div>
 // 		<div class="palette-section blue-3"></div>
@@ -920,9 +920,48 @@
 
 // ########################################################################################
 
+// #63. Given the follow array, which contains objects, that each have an array as
+// one of their key values, iterate over the parent array to console log each object. 
+// Next, iterate over the powers key to console log each indivdual power from that array.
+// NOTE: do not use the "for (let x = 0; x < ARR.length; x++)" way of iterating.
+
+// const characters = [
+//     {
+//         title: 'Ninja',
+//         emoji: '🥷',
+//         powers: ['agility', 'stealth', 'aggression'],
+//     },
+//     {
+//         title: 'Sorcerer',
+//         emoji: '🧙',
+//         powers: ['magic', 'invisibility', 'necromancy'],
+//     } 
+// ]
+
+// for (let character of characters){ 
+//     console.log(character) 
+//     for (let power of character.powers){ 
+//         console.log(power)
+//     }
+// }
+
+// NOTE: for the outer for/of loop, the first variable is ANYTHING you want it to be; 
+// the second variable has to be the name of the specific array you want to iterate over. 
+// - For the inner for/of loop, the first variable is also ANYTHING you want it to be (as
+// long as it isn't what you chose for the out for/of loop). 
+// The part that follow the word 'of' has to be the outer for/of loop variable that you chose, 
+// combined with dot notation to acces the specific key.
+// ########################################################################################
+
 
 
 // !VOCAB! 
+
+// trailing comma: 
+    // This is a comma that comes after the last item in an array 
+    // or object and is useful when you know you will be adding more items
+    // so that you don't have to create extra code later when appending a new item; 
+    // the trailing commas makes it so that it is just ready to accept a new one.
 
 // validation attributes: 
     // These are attributes added to HTML input elements that establish certain
