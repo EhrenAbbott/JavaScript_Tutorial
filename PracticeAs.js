@@ -951,6 +951,26 @@
 // long as it isn't what you chose for the out for/of loop). 
 // The part that follow the word 'of' has to be the outer for/of loop variable that you chose, 
 // combined with dot notation to acces the specific key.
+
+// ########################################################################################
+
+// #64. Create a function that iterates over the following array of dogs 
+// and renders then to a div with the id of 'dog-div'
+
+// const dogArray = ["lab", "pitbull", "australian blue heeler", "golden retriever"]
+
+// const dogDiv = document.getElementById("dog-div")
+
+// function renderDogs(dogs) { 
+//     let dogWords = ``
+//     for (let dog of dogArray){ 
+//         dogWords += `<p>${dog}</p>`
+//     }
+//     dogDiv.innerHTML = dogWords
+// }
+
+// renderDogs(dogArray)
+
 // ########################################################################################
 
 

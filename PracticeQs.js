@@ -419,17 +419,24 @@ const container = document.getElementById('container') */}
 // Next, iterate over the powers key to console log each indivdual power from that array.
 // NOTE: do not use the "for (let x = 0; x < ARR.length; x++)" way of iterating.
 
-const characters = [
-    {
-        title: 'Ninja',
-        emoji: '🥷',
-        powers: ['agility', 'stealth', 'aggression'],
-    },
-    {
-        title: 'Sorcerer',
-        emoji: '🧙',
-        powers: ['magic', 'invisibility', 'necromancy'],
-    } 
-]
+// const characters = [
+//     {
+//         title: 'Ninja',
+//         emoji: '🥷',
+//         powers: ['agility', 'stealth', 'aggression'],
+//     },
+//     {
+//         title: 'Sorcerer',
+//         emoji: '🧙',
+//         powers: ['magic', 'invisibility', 'necromancy'],
+//     } 
+// ]
+
+// ########################################################################################
+
+// #64. Create a functions that iterates over the following array of dogs 
+// and renders then to a div with the id of 'dog-div'
+
+const dogArray = ["lab", "pitbull", "australian blue heeler", "golden retriever"]
 
 // ########################################################################################
