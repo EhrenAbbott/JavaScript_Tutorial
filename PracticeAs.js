@@ -1080,7 +1080,7 @@
 
 // #70 Adding event listeners to every element a user might interact with (such as button)
 // might cause problems, so it is best to keep it to a minimum. 
-// Assuming a div with the id of "container" that contains three buttons, make it so 
+// Assuming a parent div with the id of "container" that contains three buttons, make it so 
 // that you only have to add one event lister that responds to each button that could 
 // be clicked and console log its unqiue id.
 
@@ -1111,6 +1111,25 @@
 // to listen for its selection.
 
 //########################################################################################
+
+// #72 Assuming a parent div with the id of "container" that contains three buttons, each 
+// in their own child div, make it so that you only have to add one event lister that 
+// responds to each button that could be clicked and change the *PARENT DIV'S* background color; 
+// do this all in one line of code!
+
+// container.addEventListener("click", function(e){ 
+//     document.getElementById(e.target.id).parentElement.style.backgroundColor = "lightblue"
+// })
+
+// NOTE: This works event if the parent element does not have an ID, as it is
+// retrieving the entire element without using the ID to access it.
+// NOTE: Notice how everythign is chained together starting with the document.getElementById
+// to get ahold of the element, then the e.target.id to target the specific clicked element, 
+// next concatenating the .parentElement to select the button's div, and finally .style.backgroundColor 
+// to access the CSS and change a specific property.
+
+//########################################################################################
+
 
 // !VOCAB! 
 

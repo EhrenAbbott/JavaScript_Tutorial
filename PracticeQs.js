@@ -505,3 +505,9 @@ const container = document.getElementById('container') */}
 // #71 Add an event listener that responds to a radio input being selected.
 
 //########################################################################################
+
+// #72 Assuming a parent div with the id of "container" that contains three buttons, each 
+// in their own child div, make it so that you only have to add one event lister that 
+// responds to each button that could be clicked and console log that button's *PARENT DIV*
+
+//########################################################################################
