@@ -996,6 +996,39 @@
 
 // ########################################################################################
 
+// #66 HTML DETOUR! 
+// Create two clickable circles (the kind that get filled in when you click them)
+// Give them the correct attributes to: 
+//  -Make them circular 
+//  -Allow them to be assigned to a const in the JS file 
+//  -Allow access to the information they contain
+//  -Make it so that only one of the options can be selected at once
+// Also give each option a description with the correct attribute to pair it 
+// with the actual circle that it accompanies. 
+
+{/* <div> 
+    <input
+    type="radio"
+    id="apples-radio"
+    value="apples-radio"
+    name="choice-radios"
+    /> 
+    <label for="apples-radio">apples</label>
+    <input
+    type="radio"
+    id="oranges-radio"
+    value="oranges-radio"
+    name="choice-radios"
+    />
+    <label for="oranges-radio">Oranges</label>
+</div> */}
+
+//NOTE: setting *BOTH* options' name to have the same value is what makes it so
+// that *ONLY ONE* of the options can be selected.
+// -The 'for' attribute in the label must match the input's id; linking these makes it so that
+// clicking on the descriptive text also selects the corresponding input.
+
+// ########################################################################################
 
 
 // !VOCAB! 
