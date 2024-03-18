@@ -1042,6 +1042,25 @@
 
 // ########################################################################################
 
+// #68 The the add item button is clicked, add it to the shoppingList array
+// if the item entered is not already in the list; if it is, console log "no duplicates"
+
+// const itemInput = document.getElementById('item-input')
+// const addItemBtn = document.getElementById('add-item-btn')
+
+// const shoppingList = []
+
+// addItemBtn.addEventListener("click", function(){ 
+//     if (shoppingList.includes(itemInput.value)){ 
+//         console.log("no duplicates")
+//     } else { 
+//         shoppingList.push(itemInput.value)
+//     }
+// })
+
+// ########################################################################################
+
+
 
 // !VOCAB! 
 

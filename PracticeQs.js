@@ -474,3 +474,13 @@ const container = document.getElementById('container') */}
 // What you console.log'd this out, what would it return?
 
 // ########################################################################################
+
+// #68 The the add item button is clicked, add it to the shoppingList array
+// if the item entered is not already in the list; if it is, console log "no duplicates"
+
+// const itemInput = document.getElementById('item-input')
+// const addItemBtn = document.getElementById('add-item-btn')
+
+// const shoppingList = []
+
+// ########################################################################################
