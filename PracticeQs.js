@@ -525,3 +525,8 @@ const container = document.getElementById('container') */}
 
 //########################################################################################
 
+// #75 Create an event listener on clearBtn that removes a CSS class called 'purchased'
+// on all elements with a CSS class of "product".
+
+//########################################################################################
+

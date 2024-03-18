@@ -1135,8 +1135,8 @@
 // Have it also take away a class called 'unread'
 
 // document.addEventListener("click", function(e){ 
-//     document.getElementById(e.target.id).parentElement.addClass('read')
-//     document.getElementById(e.target.id).parentElement.removeClass('unread')
+//     document.getElementById(e.target.id).parentElement.classList.add('read')
+//     document.getElementById(e.target.id).parentElement.classList.remove('unread')
 // })
 
 // NOTE: When multiple CSS classes are applied to the same element and sthe styling conflicts, 
@@ -1163,6 +1163,23 @@
 // that the function automatically get invoked *IMMEDIATELY* and does not depend 
 // on the click.
 
+//########################################################################################
+
+// #75 Create an event listener on clearBtn that removes a CSS class called 'purchased'
+// on all elements with a CSS class of "product".
+
+// clearBtn.addEventListener("click", function(){ 
+//     const productsArray = document.getElementsByClassName("product")
+//     for (let product in productsArray){ 
+//         product.classList.remove("purchased")
+//     }
+// })
+
+// NOTE: Retrieving the elements with .getElementsByClassName yields what's calld an
+// 'HTML Collection', which is technically not an array, but it is an array-like object 
+// that can be iterated throguh like a normal array in this case. This is
+// why we have to pair this with a for/of loop in order to make the appropriate
+// changes to all of the elements of the specified class.
 //########################################################################################
 
 
