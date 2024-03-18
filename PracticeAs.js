@@ -1100,6 +1100,18 @@
 
 //########################################################################################
 
+// #71 Add an event listener that responds to a radio input being selected.
+
+// radioButton.addEventListener("change", function(){ 
+
+// })
+
+// NOTE: It might be tempting to have the event listener respond to "click", but this
+// doesn't work for radio inputs and instead have to be "change" in order 
+// to listen for its selection.
+
+//########################################################################################
+
 // !VOCAB! 
 
 // logical NOT operator: 

@@ -501,3 +501,7 @@ const container = document.getElementById('container') */}
 // be clicked.
 
 //########################################################################################
+
+// #71 Add an event listener that responds to a radio input being selected.
+
+//########################################################################################
