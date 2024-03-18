@@ -493,3 +493,11 @@ const container = document.getElementById('container') */}
 // const shoppingList = []
 
 //########################################################################################
+
+// #70 Adding event listeners to every element a user might interact with (such as button)
+// might cause problems, so it is best to keep it to a minimum. 
+// Assuming a div with the id of "container" that contains three buttons, make it so 
+// that you only have to add one event lister that responds to each button that could 
+// be clicked.
+
+//########################################################################################

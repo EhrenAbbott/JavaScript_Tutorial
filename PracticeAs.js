@@ -1078,6 +1078,27 @@
 
 //########################################################################################
 
+// #70 Adding event listeners to every element a user might interact with (such as button)
+// might cause problems, so it is best to keep it to a minimum. 
+// Assuming a div with the id of "container" that contains three buttons, make it so 
+// that you only have to add one event lister that responds to each button that could 
+// be clicked and console log its unqiue id.
+
+// const container = document.getElementById("container")
+
+// container.addEventListener("click", function(e){ 
+//     console.log(e.target.id)
+// })
+
+
+// NOTE: the event that is used as the argument is actual an object that contains a ton of 
+// information. You can view it in the dev tool in the browser.
+// - One of the items in the event object is the 'target' key. This refers to the 
+// target of the event itself, which is a click in this case.
+// - The target key itself contains another object which contains the 'id'
+// key. Here you can see the id of which element specifically was clicked tin the container div.
+
+//########################################################################################
 
 // !VOCAB! 
 
