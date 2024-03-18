@@ -511,3 +511,8 @@ const container = document.getElementById('container') */}
 // responds to each button that could be clicked and console log that button's *PARENT DIV*
 
 //########################################################################################
+
+// #73 Add an event listener to the entire page that listens for a click on all elements 
+// and responds by adding a CSS class called 'read' to that element's parent element. 
+
+//########################################################################################

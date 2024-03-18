@@ -1130,6 +1130,22 @@
 
 //########################################################################################
 
+// #73 Add an event listener to the entire page that listens for a click on all elements 
+// and responds by applying a CSS class called 'read' to that element's parent element. 
+// Have it also take away a class called 'unread'
+
+// document.addEventListener("click", function(e){ 
+//     document.getElementById(e.target.id).parentElement.addClass('read')
+//     document.getElementById(e.target.id).parentElement.removeClass('unread')
+// })
+
+// NOTE: When multiple CSS classes are applied to the same element and sthe styling conflicts, 
+// CSS will prioritize the class that comes *FIRST* in the CSS document. 
+// This is why it is better to remove a class when adding another class in somecases, as you 
+// don't want to have to overly rely on the order of CSS clases.
+
+//########################################################################################
+
 
 // !VOCAB! 
 
