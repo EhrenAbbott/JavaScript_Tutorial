@@ -530,3 +530,14 @@ const container = document.getElementById('container') */}
 
 //########################################################################################
 
+// #76 On a submit button, add an event listener that console logs 
+// the a selected input that has a type set to "radio".
+// What would you add to retrieve its assigned value?
+
+//########################################################################################
+
+// #77 On the previous quesiton, a error would appear if
+// no selection has been made but they submit butten has been clicked. 
+// How would you solve this?
+
+//########################################################################################

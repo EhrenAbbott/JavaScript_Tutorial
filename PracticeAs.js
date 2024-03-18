@@ -1184,11 +1184,14 @@
 //########################################################################################
 
 // #76 On a submit button, add an event listener that console logs 
-// the a selected input that has a type set to "radio".
+// the element tags of selected input that has a type set to "radio".
+// What would you add to retrieve its assigned value?
 
 // submitBtn.addEventListener("click", function(){ 
 //     document.querySelector('input[type="radio"]:checked')
 // })
+
+// .value would be added at the very end to get the value of the value attribute.
 
 
 // NOTE: querySelector is a more powerful way of grabbing elements bc it allows 
@@ -1201,6 +1204,20 @@
 
 //########################################################################################
 
+// #77 On the previous quesiton, a error would appear if
+// no selection has been made but they submit butten has been clicked. 
+// How would you solve this?
+
+// function getMatchingCatsArray(){
+//     if(document.querySelector('input[type="radio"]:checked')){
+//         const selectedEmotion = document.querySelector('input[type="radio"]:checked').value
+//         console.log(selectedEmotion)
+//     } else { 
+//         console.log("no selection has been made")
+//     }
+// }
+
+//########################################################################################
 // !VOCAB! 
 
 // logical NOT operator: 
