@@ -1253,12 +1253,47 @@
 // NOTE: What comes before .filter is the array it being applied to.
 // -It takes a function as its argument that sets the filter condition, 
 // and this can simply come after the keyword 'return.'
+// - The parameter in the function argument represents each individual item 
+// in the array to be filtered (one at a time, like in a for loop)
 // -Technically you coudl write an if statement as the condition, but this would
 // not be as concise and is therefore not preferred.
 
 //########################################################################################
 
+// #80 Filter throguh the following array of objects and return an array of
+// the shows that are set in New York. 
+// Do the same but for shows that are of the 'thriller' genre
 
+// const series = [
+//     {
+//         name: 'The Wire',
+//         location: 'Baltimore',
+//         lengthInHours : 60,
+//         genres: ['action', 'thriller', 'detective', 'suspense']
+//     },
+//     {
+//         name: 'Friends',
+//         location: 'New York',
+//         lengthInHours : 85,
+//         genres: ['comedy', 'romance', 'drama']
+//     },
+//     {
+//         name: 'The Walking Dead',
+//         location: 'Atlanta',
+//         lengthInHours : 131,
+//         genres: ['zombie', 'apocalypse', 'thriller', 'suspense']
+//     },
+// ]
+
+// const newYorkShows = series.filter(function(show){ 
+//     return show.location === "New York"
+// })
+
+// const thrillers = series.filter(function(show){ 
+//     return show.genres.includes("thriller")
+// })
+
+//########################################################################################
 
 
 // !VOCAB! 

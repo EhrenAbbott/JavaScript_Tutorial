@@ -558,3 +558,30 @@ const container = document.getElementById('container') */}
 // const ages = [1, 5, 9, 23, 56, 10, 47, 70, 10, 19, 23, 18]
 
 //########################################################################################
+
+// #80 Filter throguh the following array of objects and return an array of
+// the shows that are set in New York. 
+// Do the same but for shows that are of the 'thriller' genre
+
+// const series = [
+//     {
+//         name: 'The Wire',
+//         location: 'Baltimore',
+//         lengthInHours : 60,
+//         genres: ['action', 'thriller', 'detective', 'suspense']
+//     },
+//     {
+//         name: 'Friends',
+//         location: 'New York',
+//         lengthInHours : 85,
+//         genres: ['comedy', 'romance', 'drama']
+//     },
+//     {
+//         name: 'The Walking Dead',
+//         location: 'Atlanta',
+//         lengthInHours : 131,
+//         genres: ['zombie', 'apocalypse', 'thriller', 'suspense']
+//     },
+// ]
+
+//########################################################################################
