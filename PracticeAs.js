@@ -1219,7 +1219,7 @@
 
 //########################################################################################
 
-// # 78 Checkbox inputs behave slightly differently because they are boolean. 
+// #78 Checkbox inputs behave slightly differently because they are boolean. 
 // Assumign the following elements, console log "checked" if the box has been 
 // checked or "not checked" if the opposite is true. 
 
@@ -1240,10 +1240,32 @@
 
 //########################################################################################
 
+// #79  Filter through the following array, adding any of the 
+// number that are equal to or greeater than 18 to a new array. 
+// Do not use a for loop.
+
+// const ages = [1, 5, 9, 23, 56, 10, 47, 70, 10, 19, 23, 18]
+
+// const adults = ages.filter(function(age){ 
+//     return age >= 18
+// })
+
+// NOTE: What comes before .filter is the array it being applied to.
+// -It takes a function as its argument that sets the filter condition, 
+// and this can simply come after the keyword 'return.'
+// -Technically you coudl write an if statement as the condition, but this would
+// not be as concise and is therefore not preferred.
+
+//########################################################################################
+
 
 
 
 // !VOCAB! 
+
+// uuid: 
+    // stands for "universally unique identifier" and a common way of 
+    // assigning unqiue keys to blocks of data.
 
 // logical NOT operator: 
     // This is the '!' used to check for something that is NOT present. When

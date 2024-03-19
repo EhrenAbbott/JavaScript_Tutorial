@@ -550,3 +550,11 @@ const container = document.getElementById('container') */}
 // const acceptTerms = document.getElementById('accept-terms')
 
 //########################################################################################
+
+// #79  Filter through the following array, adding any of the 
+// number that are equal to or greeater than 18 to a new array. 
+// Do not use a for loop.
+
+// const ages = [1, 5, 9, 23, 56, 10, 47, 70, 10, 19, 23, 18]
+
+//########################################################################################
