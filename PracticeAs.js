@@ -1298,14 +1298,59 @@
 // #81 HTML detour! 
 // What tag do you use to make an input space for the user to write longer 
 // chunks of text?
+// What CSS property do you give it so the user can change the display size 
+// of the input field?
 
+//-----HTML-----
 {/* <textarea></textarea> */}
+
+//-----CSS-----
+// textarea { 
+//     resize: none;
+// }
 
 //NOTE: This isn't just an input tag with a modifying attribute, it is its own tag! 
 // - If you put the closing tag on another line, it will not display the placeholder correctly, 
 // so the closing tag has to at least be on the same line as the ">" from the opening tag.
 
 //########################################################################################
+
+// #82 Iterate through every item in thhis array of objects using something 
+// other than a for loop. 
+// a) Console.log each object in the array.
+// b) console.log the array of powers for every item.
+// c) console.log each individual power for every item
+
+// const characters = [
+//     { 
+//         title: 'Ogre',
+//         emoji: '👹',
+//         powers: ['power', 'stamina', 'shapeshifting'],
+//     },  
+//     { 
+//         title: 'Unicorn',
+//         emoji: '🦄',
+//         powers: [ 'flight', 'power', 'purity'],
+//     }
+// ]
+
+// characters.forEach(function(character){ 
+//     console.log(character)
+// })
+
+// characters.forEach(function(character){ 
+//     console.log(character.powers)
+// })
+
+// characters.forEach(function(character){ 
+//     character.powers.forEach(function(power){ 
+//         console.log(power)
+//     })
+// })
+
+//########################################################################################
+
+
 // !VOCAB! 
 
 // uuid: 
