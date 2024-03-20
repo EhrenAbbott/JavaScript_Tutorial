@@ -615,3 +615,9 @@ const container = document.getElementById('container') */}
 // ]
 
 //########################################################################################
+
+// #83 Using the same array as the quesiton above, iterate through 
+// each object in the array and, using two paramter, console log the title AND the index.
+// (do not use a for/of loop)
+
+//########################################################################################
