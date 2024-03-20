@@ -1295,7 +1295,17 @@
 
 //########################################################################################
 
+// #81 HTML detour! 
+// What tag do you use to make an input space for the user to write longer 
+// chunks of text?
 
+{/* <textarea></textarea> */}
+
+//NOTE: This isn't just an input tag with a modifying attribute, it is its own tag! 
+// - If you put the closing tag on another line, it will not display the placeholder correctly, 
+// so the closing tag has to at least be on the same line as the ">" from the opening tag.
+
+//########################################################################################
 // !VOCAB! 
 
 // uuid: 

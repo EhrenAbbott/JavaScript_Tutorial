@@ -585,3 +585,9 @@ const container = document.getElementById('container') */}
 // ]
 
 //########################################################################################
+
+// #81 HTML detour! 
+// What tag do you use to make an input space for the user to write longer 
+// chunks of text?
+
+//########################################################################################
