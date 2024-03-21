@@ -621,3 +621,8 @@ const container = document.getElementById('container') */}
 // (do not use a for/of loop)
 
 //########################################################################################
+
+// #84 HTML Detour! 
+// Create a data attribute for an imgage elemet
+
+//########################################################################################

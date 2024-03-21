@@ -1359,9 +1359,31 @@
 // })
 
 //NOTE: The 'index' is a special paramter for .forEach
+
+//########################################################################################
+
+// #84 HTML Detour! 
+// Create a data attribute for an imgage elemet
+
+{/* <img data-share="image-1"> */}
+
+//NOTE: every unique data attribute starts with--     data-   --and is followed
+// by a unique descriptive name that you give it (with every word separated by a hyphen)
+// This is followed by the equals sign and then quotes enclosing a string with the information
+// you want to give it.
+
 //########################################################################################
 
 // !VOCAB! 
+
+// data attribute: 
+    // this is used to store extra information in HTML elements
+    
+// CDN: 
+    // stand for "content delivery network"
+    // this is a remote service that provides assets to web apps
+    // It provides snippes of code that will bring the asset into our application
+    // Font Awesome is an example of a CDN, where you can get free icons
 
 // uuid: 
     // stands for "universally unique identifier" and a common way of 
