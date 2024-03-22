@@ -625,4 +625,12 @@ const container = document.getElementById('container') */}
 // #84 HTML Detour! 
 // Create a data attribute for an imgage elemet
 
+{/* <img id="image-1"></img> */}
+
+//########################################################################################
+
+// #85 Assumign the attribute from the previous question, 
+// console log the element's data attribute value by clicking
+// anywhere on the document.
+
 //########################################################################################

@@ -1363,21 +1363,52 @@
 //########################################################################################
 
 // #84 HTML Detour! 
-// Create a data attribute for an imgage elemet
+// Create a data attribute for an image element
 
-{/* <img data-share="image-1"> */}
+{/* <img id="image-1"> */}
+{/* <i data-share="image-1"></i> */}
 
 //NOTE: every unique data attribute starts with--     data-   --and is followed
 // by a unique descriptive name that you give it (with every word separated by a hyphen)
-// This is followed by the equals sign and then quotes enclosing a string with the information
-// you want to give it.
+// -This is followed by the equals sign and then quotes enclosing a string with the information
+// you want to give it, usually the id of the element it is connected to.
+// - Do not use camel case in the HTML (or capital letters at all) when naming multiword the data- attributes, 
+// as they will get 'flattened' to lower case in the JS document and cause incongruities; instead 
+// use hyphens.
+// - When using hyphens for multiword attribute names in HTML, the hyphens cannot be used in
+// the JS syntax, so the HTML names must get traslated as camel case in JS. So, the HTML 
+// attribure share-icon would have to be shareIcon in JS.
 
 //########################################################################################
+
+// #85 Assuming the attribute from the previous question, 
+// console log the element's data attribute value by clicking
+// anywhere on the document.
+
+// document.addEventListener("click", function(e){ 
+//     console.log(e.target.dataset.share)
+// })
+
+//NOTE: The value of the data attribute is stored in a nested object;
+// The part that comes after e.target.dataset will be the name of the 
+// data attribute that you have chosen
+
+//########################################################################################
+
+
+
+
 
 // !VOCAB! 
 
 // data attribute: 
-    // this is used to store extra information in HTML elements
+    // This is used to store extra information in HTML elements
+    // It provides a way of demonstrating a relationship between
+    // elements without relying on the id attirbute, which is supposed 
+    // to be unique to only one element. 
+    // For example, a data attribute could be used to establish a relationship 
+    // between a like button and a share button with the image they correspond to. 
+    //
     
 // CDN: 
     // stand for "content delivery network"
