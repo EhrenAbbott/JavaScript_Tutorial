@@ -1395,6 +1395,23 @@
 
 //########################################################################################
 
+// #86 Create an event listener  that only works if the element that gets clicked
+// has a data attribute called 'data-like'
+
+// document.addEventListener("click", function(e){ 
+//     if (e.target.dataset.like){ 
+//         console.log("yes")
+//     }
+// })
+
+
+// NOTE: Here we are setting the event listener on the whole document, not a specific element, 
+// but event listener is only performing the console log if the "data-like" attribute exist 
+// on the element that gets clicked. 
+// - This strategy can be used to minimize event listener so that you do not have a ton of 
+// different event listeners applied to different like buttons (for example) on the same page.
+
+//########################################################################################
 
 
 
@@ -1408,7 +1425,8 @@
     // to be unique to only one element. 
     // For example, a data attribute could be used to establish a relationship 
     // between a like button and a share button with the image they correspond to. 
-    //
+    // This way, you could have what are essentially different, custom made attributes (bc
+    // you chose the name) store the same value.
     
 // CDN: 
     // stand for "content delivery network"
