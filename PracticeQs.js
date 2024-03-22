@@ -639,3 +639,17 @@ const container = document.getElementById('container') */}
 // has a data attribute called 'data-like'
 
 //########################################################################################
+
+// #87 Assuming the following if statement in an event listener, refactor it 
+// so that there is only one line responsible for changing the boolean value.
+
+// if (targetTweetObj.isLiked){
+//     targetTweetObj.likes--
+//     targetTweetObj.isLiked = false // delete
+// }
+// else{
+//     targetTweetObj.likes++
+//     targetTweetObj.isLiked = true // delete  
+// }
+
+//########################################################################################

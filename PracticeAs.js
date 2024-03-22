@@ -1413,10 +1413,43 @@
 
 //########################################################################################
 
+// #87 Assuming the following if statement in an event listener, refactor it 
+// so that there is only one line responsible for changing the boolean value.
+
+// if (targetTweetObj.isLiked){
+//     targetTweetObj.likes--
+// }
+// else{
+//     targetTweetObj.likes++
+// }
+// targetTweetObj.isLiked = !targetTweetObj.isLiked
+
+// NOTE: using the logical NOT operator before a boolean simply changes it to the 
+// opposite value regardless of if it was originally true or originally false.
+
+//########################################################################################
 
 
 
 // !VOCAB! 
+
+// shallow copy: 
+    // This refers to what is created when you copy an object or array to
+    // a new variable. For example if you take usersArray  which contains and array of a single object, 
+    // and then say arrayCopy = usersArray[0], this would be a shallow copy. 
+    // Whats happening is that usersArray is is created in the memory, and the const holds a reference 
+    // to that spot in the memory locaiton. If we copy the origial object and 
+    // save it to a new variable the new variable actually does *NOT* create 
+    // a new place in memory that it referecnes and instead it simply hold a reference
+    // to the original variables spot in memory. Essentially there are now to variables referencing
+    // the same spot in memory, so if you alter the data stored in memory referenced by the original variable, 
+    // the copy will still be pointing to that altered data as well.
+    // - IMPORTANT! This does *NOT* happen with primitive data types like numbers, strings and boolean; 
+    // for these, a second place is created in memory that is independent of the original variable's location in memory.
+
+// copy copy: 
+    // This is the opposite of a shallow copy, where you are actually making a second
+    // spot in memory for a copies object or array.
 
 // data attribute: 
     // This is used to store extra information in HTML elements
