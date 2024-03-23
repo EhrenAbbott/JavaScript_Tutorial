@@ -687,3 +687,21 @@ const container = document.getElementById('container') */}
 //-----HTML-----    
 
 //########################################################################################
+
+// #90 Use object destructuring to more efficiently create variables for all of the object properties:
+
+// const favouriteFilm = {
+//     title: "Top Gun",
+//     year: "1986",
+//     genre: "action",
+//     star: "Tom Cruise",
+//     director: "Tony Scott"
+// } 
+
+// const title = favouriteFilm.title
+// const year = favouriteFilm.year
+// const genre = favouriteFilm.genre
+// const star = favouriteFilm.star
+// const director = favouriteFilm.director
+
+//########################################################################################

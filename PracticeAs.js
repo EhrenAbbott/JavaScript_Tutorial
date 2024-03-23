@@ -1479,7 +1479,34 @@
 
 //########################################################################################
 
+// #90 Use object destructuring to more efficiently create variables for all of the object properties:
+
+// const favouriteFilm = {
+//     title: "Top Gun",
+//     year: "1986",
+//     genre: "action",
+//     star: "Tom Cruise",
+//     director: "Tony Scott"
+// } 
+
+// const title = favouriteFilm.title
+// const year = favouriteFilm.year
+// const genre = favouriteFilm.genre
+// const star = favouriteFilm.star
+// const director = favouriteFilm.director
+
+// const {title, year, genre, star, director} = favouriteFilm
+
+// NOTE: the first way of creating 5 consts works, but it is not DRY bc
+// it invovles so much repetition that can be elimination via object destructuring.
+
+//########################################################################################
+
 // !VOCAB! 
+
+// object destructuring: 
+    // Refers to the extraction of of properties from objects into distinct 
+    // variables.
 
 // shallow copy: 
     // This refers to what is created when you copy an object or array to
