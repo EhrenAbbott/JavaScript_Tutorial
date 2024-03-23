@@ -1429,6 +1429,39 @@
 
 //########################################################################################
 
+// #88 Given the following code, what would you need to add 
+// in order to have some CSS styling conditionally applied to changed
+// the color of the like butten if and when it has been clicked?
+
+// let isLiked = false
+
+
+// document.addEventListener('click', function(e){
+//     if(e.target.dataset.heart){
+//         isLiked = !isLiked
+//         render()
+//     }
+// })
+
+// function render(){ 
+    
+//     let heartClass = ''
+    
+//     if(isLiked){
+//         heartClass = 'liked'
+//     } 
+    
+//     let imageHtml = `
+// 			<div class="social-icons-container">
+// 				<i class="fa-solid fa-heart ${heartClass}" data-heart="image-1"></i>
+// 			</div>
+//     `
+//     galleryContainer.innerHTML = imageHtml
+// }
+
+// render()
+
+//########################################################################################
 
 
 // !VOCAB! 
