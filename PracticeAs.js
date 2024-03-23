@@ -1463,6 +1463,21 @@
 
 //########################################################################################
 
+// #89 Import a CDN function from uuidjs that allows you to produce a randomly generate a uuid.
+
+//-----JS-----
+// import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
+// console.log(uuidv4())
+  
+//-----HTML-----    
+{/* <body>
+    <script src="index.js" type="module"></script>
+</body> */}
+
+// NOTE: The function doesn't have to be renamed, but it might avoid confusion, as the default name 
+// is so generic and not descriptive enough.
+
+//########################################################################################
 
 // !VOCAB! 
 
@@ -1500,9 +1515,12 @@
     // It provides snippes of code that will bring the asset into our application
     // Font Awesome is an example of a CDN, where you can get free icons
 
-// uuid: 
+// UUID (AKA GUID): 
     // stands for "universally unique identifier" and a common way of 
-    // assigning unqiue keys to blocks of data.
+    // assigning unqiue keys to blocks of data; it is a string of 36 characters that
+    // is not just unique to your application but is unqiue worldwide.
+    // The currently preffered type of uuid is the Version 4 UUID, which generates
+    // characters completely randomly. 
 
 // logical NOT operator: 
     // This is the '!' used to check for something that is NOT present. When
