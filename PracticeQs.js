@@ -768,3 +768,11 @@ const container = document.getElementById('container') */}
 
 //########################################################################################
 
+// #97 Write a function declaration (this is official name for what is just the normal way of writing 
+// out a function). The a function expression (use the same body of the previous). 
+
+// What is  functional the difference between these two ways of writing functions? 
+// Is the difference an advantage or disadvantage?
+
+//########################################################################################
+

@@ -1632,6 +1632,34 @@
 
 //########################################################################################
 
+// #97 Write a function declaration (this is official name for what is just the normal way of writing 
+// out a function). The a function expression (use the same body of the previous). 
+
+// What is  functional the difference between these two ways of writing functions? 
+// Is the difference an advantage or disadvantage?
+
+//function declaration
+// function getSpendAlert(amount) {
+//     return `Warning! You just spent £${amount}!`
+// }
+
+//function expression 
+// const getSpendAlert = function(amount){
+//     return `Warning! You just spent £${amount}!`
+// }
+
+// NOTE: Function declarations are *HOISTED*, so they can be called anywhere in the file 
+// and it will work.
+// -A function declaration is a named function, whereas a function expression 
+// is basically a variable that holds what is similar to an anonymous function. 
+// - Critically, a function expression is *NOT* hoisted; this can actually be an
+// advantage, as function declarations being hoisted and called anywhere in their scope
+// can call confusion and lead to bugs 
+// -Some might argue that function expressions are cleaner and easier to read; for this reason
+// some dev teams might prefer them
+
+//########################################################################################
+
 
 // !VOCAB! 
 
