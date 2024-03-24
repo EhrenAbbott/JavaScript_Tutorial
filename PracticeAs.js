@@ -1515,14 +1515,21 @@
 //     animal.toUpperCase()
 // })
 
-//The critical difference is that .forEach *MODIFIES* the original array, 
+// NOTE: The critical difference is that .forEach *MODIFIES* the original array, 
 // whereas .map returns a *NEW* array that contains the results of calling the provided function! 
 // If you try to say-- let const newArray = myArray.forEach(function(item){//CODE HERE//})    --it will 
 // return undefined!
-// NOTE: if .map is being used inside a function, you will need 2 return statements in order to
+// - This means that you cannot save the result of .forEach directly to a const; you would 
+// instead have to create a new, empty array, and when you call .forEach on the original array, 
+// push each item to the new array and then render that new array.
+// - If .map is being used inside a function, you will need 2 return statements in order to
 // avoid getting undefined; the first return is for the function itself, and the second return 
 // is for the .map function, which has to have an function w/ a return as its argument; this will not
 // return two different things, just the new, modified array.
+// -Because .forEach does not return a new array, you cannot chain another method after the parentheses in
+// .forEach()    This is a disadvantage of .forEach, as is the resulting clunkiness of the code after 
+// having to work around its defecits.
+
 
 //########################################################################################
 
@@ -1576,6 +1583,66 @@
 
 
 // !VOCAB! 
+
+// modularization: 
+    // Refers to the seperation of of program functions into independent pieces
+    // which act like building blocks and all contribute to the executio of the program
+
+// abstraction: 
+    // -A concept that represents the degree of technical understanding required
+    // to be able to effectively work on a particular problem. 
+    // -For example to have a work to display in the console, you need to know that the 
+    // syntax is console.log  followed by parentheses that contain the string to be logged;
+    // You *DON"T* need to know what exactly happens under the hood to get from point A to point B
+    // -Understanding abstraction will allow you to know when you have to understand 
+    // something technical or just how to use it/
+
+// anti-pattern: 
+    // An anti-pattern refers to what *NOT* to do when coding; for example,
+    // iterating over an array with .map instead of .forEach when you want to modify 
+    // the contents of the array but *DON'T* actually use the new array that it returns.
+
+// spaghetti code: 
+    // The most well known anti-pattern 
+    // This is code with little to no structure, no modularization, and file structures 
+    // that don't follow and logic or reason.
+
+// golden hammer: 
+    // An example of a anti-pattern
+    // Refers to the expression "if the only tool you have is a hammer, 
+    // you treat everything as it if were a nail"
+    // In coding this is being over reliant on one pattern or approach 
+    // that has worked for other applicables but is not ideal for the current issue 
+    // This is doing what's easier bc you are more comfortable with it, not bc it is the best 
+    // solution for the current problem at hand.
+
+// boat anchhor: 
+    // An example of an anti-pattern
+    // This refers to the practice of leaving code in the codebase because you might need it 
+    // later, even though you don't need it now. 
+    // This causes maintenance issue for the codebase that contains obsolete code; other 
+    // developers working on the same project will have a hard time knowing which code ise obsolete 
+    // and which code isn't; it also makes build time longer
+
+// dead code: 
+    // An example of an anti-pattern
+    // This is code is written and implemented but doesn't really do anything to contribute
+    // to the overall goal; sometimes you can tell what the code is doing 
+    // but the context is just missing, or the code just isn't necessary for
+    // the execution of your program.
+
+// proliferation of code: 
+    // An example of antipattern
+    // This is when you have objects in your codebase that only serve to invoke another, more
+    // important object; the object in question only functions as a middleman
+    // This creates and unnecessary level of abstraction and creates confusion for others
+    // working with the same codebase
+
+// God object (AKA Swiss Army Knife): 
+    // An example of an anti-pattern
+    // Refers to the overreliance of accessing one particular object in your codebase
+    // A God object just does too much, when the code should be seperated out into smaller, 
+    // logical units
 
 // chaining: 
     // The concatenation of 2 or more methods in the same line of code
