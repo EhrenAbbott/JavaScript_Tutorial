@@ -1675,6 +1675,17 @@
 
 //########################################################################################
 
+// #99 Use the map method but make the function argument an inline arrow function.
+
+// const distanceTraveledMiles = [267, 345, 234, 190, 299]
+
+// const newArr = distanceTraveledMiles.map(distance => distance * 2)
+
+// NOTE: The function here is not only an arrow function, but it is also not assigned 
+// to any const, like in #98.
+
+//########################################################################################
+
 // !VOCAB! 
 
 // modularization: 

@@ -782,3 +782,9 @@ const container = document.getElementById('container') */}
 
 //########################################################################################
 
+// #99 Use the map method but make the function argument an inline arrow function.
+
+// const distanceTraveledMiles = [267, 345, 234, 190, 299]
+
+//########################################################################################
+
