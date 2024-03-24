@@ -1502,6 +1502,26 @@
 
 //########################################################################################
 
+//#91 What is the difference between .map and .forEach? 
+// Use each one on the following array to compare the syntax: 
+
+// let myArray = ["dogs", "cats", "turtles", "birds" ]
+
+// let mappedArray = myArray.map(function(animal){ 
+//     return animal.toUpperCase()
+// })
+
+// myArray.forEach(function(animal){ 
+//     animal.toUpperCase()
+// })
+
+//The critical difference is that .forEach *MODIFIES* the original array, 
+// whereas .map returns a *NEW* array that contains the results of calling the provided function! 
+// If you try to say-- let const newArray = myArray.forEach(function(item){//CODE HERE//})    --it will 
+// return undefined!
+//########################################################################################
+
+
 // !VOCAB! 
 
 // object destructuring: 

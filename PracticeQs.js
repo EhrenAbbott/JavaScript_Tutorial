@@ -705,3 +705,11 @@ const container = document.getElementById('container') */}
 // const director = favouriteFilm.director
 
 //########################################################################################
+
+//#91 What is the difference between .map and .forEach? 
+// Use each one on the following array to compare the syntax: 
+
+// let myArray = ["dogs", "cats", "turtles", "birds" ]
+
+//########################################################################################
+
