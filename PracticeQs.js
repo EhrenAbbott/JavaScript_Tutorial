@@ -776,3 +776,9 @@ const container = document.getElementById('container') */}
 
 //########################################################################################
 
+// #98 Write the function from the previous question but make it an arrow function. 
+//      When can you eliminate the parentheses? 
+//      When can you make it an inline function and eliminate the return keyword?
+
+//########################################################################################
+

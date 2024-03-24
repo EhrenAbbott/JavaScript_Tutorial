@@ -1660,6 +1660,20 @@
 
 //########################################################################################
 
+// #98 Write the function from the previous question but make it an arrow function. 
+//      When can you eliminate the parentheses? 
+//      When can you make it an inline function and eliminate the return keyword and curly brackets?
+
+// const getSpendAlert = (amount) => {
+//     return `Warning! You just spent £${amount}!`
+// } 
+
+// You can delete the parentheses if you have:
+//  - only 1 parameter
+// You can eliminate the return keyword/curly brackets if: 
+//  - the code is short enough to remain on one line
+
+//########################################################################################
 
 // !VOCAB! 
 
