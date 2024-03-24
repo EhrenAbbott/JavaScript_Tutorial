@@ -1610,6 +1610,28 @@
 
 //########################################################################################
 
+// #96 What is the downside of using innerHTML to render HTML elements? 
+//  How can you refactor the following code to do the same thing as innerHTML but 
+// avoid the potential downside?
+
+// const filmInput = document.getElementById('film-input')
+// const addBtn = document.getElementById('add-btn')
+// const filmList = document.getElementById('film-list')
+
+// addBtn.addEventListener('click', function() {
+//     const newFilm = document.createElement('div')
+//     newFilm.classList.add('film-item')
+//     newFilm.textContent = filmInput.value
+//     filmList.appendChild(newFilm)
+//     filmInput.value = ''
+// }) 
+
+// When using innerHTML to render elements derived from user input, malicious code could be introduced
+// if a hacker were to include it in the user input field
+// The solution to this is to manually build the element, as shown above. 
+
+//########################################################################################
+
 
 // !VOCAB! 
 

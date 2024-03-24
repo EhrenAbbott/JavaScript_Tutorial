@@ -751,3 +751,20 @@ const container = document.getElementById('container') */}
 
 //########################################################################################
 
+// #96 What is the downside of using innerHTML to render HTML elements? 
+//  How can you refactor the following code to do the same thing as innerHTML but 
+// avoid the potential downside?
+
+// const filmInput = document.getElementById('film-input')
+// const addBtn = document.getElementById('add-btn')
+// const filmList = document.getElementById('film-list')
+
+// addBtn.addEventListener('click', function() {
+//     filmList.innerHTML += `
+//         <div class="film-item">${filmInput.value}</div>
+//         `
+//     filmInput.value = ''
+// }) 
+
+//########################################################################################
+
