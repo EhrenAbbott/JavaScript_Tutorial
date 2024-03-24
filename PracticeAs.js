@@ -1581,6 +1581,35 @@
 
 //########################################################################################
 
+//# 95 Iterate throguh the following object and console log each item, but
+// skip over the items that have a negatve amount and stop the for loop when the year 
+// changes to 2024.
+
+// const expensesAndRefunds = [
+//     { description: 'Groceries', amount: 50, year: 2023 },
+//     { description: 'Electronics', amount: -30, year: 2023 },
+//     { description: 'Entertainment', amount: 25, year: 2023 },
+//     { description: 'Utilities', amount: 100, year: 2024 },
+// ]
+
+// for (let i = 0; i < expensesAndRefunds.length; i++){ 
+//     const currentItem = expensesAndRefunds[i]
+//     if (currentItem.year > 2023){ 
+//         break
+//     }
+//     if (currentItem.amount < 0){ 
+//         continue
+//     }
+//     console.log(currentItem)
+// }
+
+// NOTE: The difference between break and continue is that breaka ends the for loop
+// altogther, whereas continue just skips the current item. 
+// -The ability to use continue and break are advantages of the for loop, as doing something
+// equivalent with .forEach or .map would invovle making a more complex work-around.
+
+//########################################################################################
+
 
 // !VOCAB! 
 
