@@ -1539,6 +1539,20 @@
 
 //########################################################################################
 
+// #93 Working with the array in 91, how would you make it so that the resulting string 
+// doesn't have a comma between each name but has a space instead? 
+// What about one long word with no punctuation or spacing at all?
+
+
+// console.log(guestsArr.join(' '))
+// console.log(guestsArr.join(''))
+
+// NOTE: The character that goes in between the parentheses of the join method is call the separator, 
+// and it denotes what, if anything, will go between the items in the final string.
+
+//########################################################################################
+
+
 // !VOCAB! 
 
 // object destructuring: 

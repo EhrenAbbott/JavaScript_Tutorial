@@ -713,3 +713,16 @@ const container = document.getElementById('container') */}
 
 //########################################################################################
 
+//#92  Turn the following array into a string. 
+//      What will it look like when you console log it?
+
+// const guestsArr = ['Amy', 'Clare', 'Keith', 'Dan'] 
+
+//########################################################################################
+
+// #93 Working with the array in 91, how would you make it so that the resulting string 
+// doesn't have a comma between each name but has a space instead? 
+// What about one long word with no punctuation or spacing at all?
+
+//########################################################################################
+
