@@ -1519,8 +1519,25 @@
 // whereas .map returns a *NEW* array that contains the results of calling the provided function! 
 // If you try to say-- let const newArray = myArray.forEach(function(item){//CODE HERE//})    --it will 
 // return undefined!
+// NOTE: if .map is being used inside a function, you will need 2 return statements in order to
+// avoid getting undefined; the first return is for the function itself, and the second return 
+// is for the .map function, which has to have an function w/ a return as its argument; this will not
+// return two different things, just the new, modified array.
+
 //########################################################################################
 
+//#92  Turn the following array into a string. 
+//      What will it look like when you console log it?
+
+// const guestsArr = ['Amy', 'Clare', 'Keith', 'Dan'] 
+// guestsArr.join()
+// The console log will show one long string of all the names and it will 
+// include the commas but not have any spaces: "Amy,Clare,Keith,Dan"
+
+// NOTE: .join is an inbuilt JS method for creating strings from arrays. 
+// - It lets you choose how the elements are separated, and its returns a new string.
+
+//########################################################################################
 
 // !VOCAB! 
 
