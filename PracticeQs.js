@@ -726,3 +726,15 @@ const container = document.getElementById('container') */}
 
 //########################################################################################
 
+//# 94 Chain .map and .join together to return a string of elements that does *NOT*
+// render with a comma being displayed.
+// Store what gets returns in a const called playlistHtml.
+
+// let playlistArr = ["nirvana", "the gogos", "madonna", "blur"]
+
+// const playlistHtml = 
+
+// document.getElementById('container').innerHTML = playlistHtml
+
+//########################################################################################
+

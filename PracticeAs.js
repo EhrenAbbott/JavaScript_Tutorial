@@ -1552,8 +1552,35 @@
 
 //########################################################################################
 
+//# 94 Chain .map and .join together to return a string of elements that does *NOT*
+// render with a comma being displayed.
+// Store what gets returns in a const called playlistHtml.
+
+// let playlistArr = ["nirvana", "the gogos", "madonna", "blur"]
+
+// const playlistHtml = playlistArr.map(function(band){ 
+//     return `
+//     <div>
+//         <h1>${band}</h1>
+//     </div>
+//     `
+// }).join('')
+
+// document.getElementById('container').innerHTML = playlistHtml
+
+// NOTE: remember to add the separator in parentheses for .join ! 
+// - .join() could instead be added in the last line immediately after playlistHtml, 
+// but this is a matter of personal preference. 
+
+//########################################################################################
+
 
 // !VOCAB! 
+
+// chaining: 
+    // The concatenation of 2 or more methods in the same line of code
+    // Ex: document.getElementById(`container`).classList.toggle('hidden')
+
 
 // object destructuring: 
     // Refers to the extraction of of properties from objects into distinct 
