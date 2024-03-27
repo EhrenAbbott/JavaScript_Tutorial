@@ -861,3 +861,8 @@ const container = document.getElementById('container') */}
 // }
 
 //########################################################################################
+
+// #106 Do the previous question but add one more conditon to the ternary so that 
+// a different message becomes the values of the const if the time is less than 60
+
+//########################################################################################

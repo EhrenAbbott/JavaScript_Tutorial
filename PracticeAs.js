@@ -1808,6 +1808,22 @@
 
 //########################################################################################
 
+// #106 Do the previous question but add one more conditon to the ternary so that 
+// a different message becomes the values of the const if the time is less than 60
+
+// const exerciseTimeMins = 20
+
+// const message = exerciseTimeMins < 30 ? 'You need to try harder!' 
+//     : exerciseTimeMins < 60 ? 'Doing good!' 
+//     : 'Excellent!'
+
+// NOTE: when there are multiple conditions, it will evaluate the first 
+// and then move down to the second if the first condition is falsey.
+// - Ternaries are not just limited to two conditions, and more can be added 
+// but that is not always a good idea bc the more you add to ternareis the more 
+// you sacrifice readability
+
+//########################################################################################
 
 
 // !VOCAB! 
