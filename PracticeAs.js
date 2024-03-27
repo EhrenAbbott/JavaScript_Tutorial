@@ -1723,6 +1723,48 @@
 
 //########################################################################################
 
+// #103 Use .reduce with the array of objects to get the average grade.
+
+
+export const studentsArr = [
+    {
+        name: 'Mike',
+        grade: 75
+    },
+    {
+        name: 'Emma',
+        grade: 83
+    },
+    {
+        name: 'Seth',
+        grade: 66
+    }
+]
+
+function calculateClassAverage(studentsArr) {
+    const totalGrades = studentsArr.reduce(function(total, currentStudent){
+        return total + currentStudent.grade
+    }, 0)
+    return totalGrades / studentsArr.length
+}
+
+//NOTE: Using .reduce with an object works a bit differently, because you can't simply 
+// access the grade property by using total.grades in the anon function argument.
+// Instead, .reduce  can take  asecond parameter-- keep in mind that we are not adding 
+// another param to the anonymous function, but rather to the .reduce method itself, so this second 
+// param with be a sort of sibling param to the anonymous function.
+// - The second parameter overrides the initial value, which we have given the name of 
+// 'total' here. Whereas nomrally this value woudl be the first number in the array, this second 
+// parameter allows us to explicitly set a different starting value, which we will set to 0.
+// We are setting it to zero because, given that we are working with an array od *objects*, without 
+// setting it to 0 we would actually be attempting to add a number to an object itself, which is not possible. 
+// -Notice that there are two returns here; the first return is for the anonymous function 
+// being used as the argument for .reduce, and the second is for the named function. Think of the innermost 
+// return as giving a value to its parent function, and the outer return statement as giving the value to the user.
+
+
+//########################################################################################
+
 // !VOCAB! 
 
 // modularization: 

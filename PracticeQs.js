@@ -805,3 +805,22 @@ const container = document.getElementById('container') */}
 
 //########################################################################################
 
+// #103 Use .reduce with the array of objects to get the average grade.
+
+
+// export const studentsArr = [
+//     {
+//         name: 'Mike',
+//         grade: 75
+//     },
+//     {
+//         name: 'Emma',
+//         grade: 83
+//     },
+//     {
+//         name: 'Seth',
+//         grade: 66
+//     }
+// ]
+
+//########################################################################################
