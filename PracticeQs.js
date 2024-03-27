@@ -788,3 +788,9 @@ const container = document.getElementById('container') */}
 
 //########################################################################################
 
+// #100 Export two functions in the same lime (without individually exporting them)
+// Import the same two functions in one line.
+// Rename one of them but leave the other as is.
+
+//########################################################################################
+

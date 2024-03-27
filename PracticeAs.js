@@ -1686,6 +1686,17 @@
 
 //########################################################################################
 
+// #100 Export two functions in the same lime (without individually exporting them)
+// Import the same two functions in one line.
+// Rename one of them but leave the other as is.
+
+// export { interplanetaryDestinationsArr, shortSpaceTripsArr}
+
+// import { interplanetaryDestinationsArr as destinations, shortSpaceTripsArr } from '/data.js'
+
+//########################################################################################
+
+
 // !VOCAB! 
 
 // modularization: 
