@@ -1706,6 +1706,22 @@
 
 //########################################################################################
 
+// #102 Use .reduce to find the sum of the following array.
+
+// const rainJanuaryByWeek = [ 10, 20, 0, 122 ]
+
+// const totalRainfallJanuary = rainJanuaryByWeek.reduce(function(total, currentElement){
+//     return total + currentElement
+// })
+
+// NOTE: The one number that .reduce is going to give us needs to be saved somewhere, so 
+// you need to start out with a const/let; the result will be a single value.
+// - The first parameter of the function stores the running tally of the numbers 
+// as we work throguh the process; so at the start, 10 is the value of the first argument.
+// for the above const
+// - The second paramter represents the number that is currently being worked on.
+
+//########################################################################################
 
 // !VOCAB! 
 

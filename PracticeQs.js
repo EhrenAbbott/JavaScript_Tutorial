@@ -799,3 +799,9 @@ const container = document.getElementById('container') */}
 
 //########################################################################################
 
+// #102 Use .reduce to find the sum of the following array.
+
+// const rainJanuaryByWeek = [ 10, 20, 0, 122 ]
+
+//########################################################################################
+
