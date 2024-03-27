@@ -846,3 +846,18 @@ const container = document.getElementById('container') */}
 // yon't get an error but you also aren't forced to give it a value that isn't needed.
 
 //########################################################################################
+
+// #105 Refactor the following using a ternary.
+
+// const exerciseTimeMins = 40
+
+// let message = ''
+
+// if (exerciseTimeMins < 30) {
+//     message = 'You need to try harder!'
+// }
+// else {
+//     message = 'Doing good!'
+// }
+
+//########################################################################################

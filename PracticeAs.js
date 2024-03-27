@@ -1787,9 +1787,37 @@
 
 //########################################################################################
 
+// #105 Refactor the following using a ternary.
+
+// const exerciseTimeMins = 40
+
+// let message = ''
+
+// if (exerciseTimeMins < 30) {
+//     message = 'You need to try harder!'
+// }
+// else {
+//     message = 'Doing good!'
+// }
+
+// const message = exerciseTimeMins < 30 ? 'You need to try harder!' : 'Doing good!'
+
+
+// NOTE: ternaries are particularly useful before they can be assigned to consts to conditionally 
+// set a variable value.
+
+//########################################################################################
+
 
 
 // !VOCAB! 
+
+// ternary operator: 
+    // can sometimes be used as an alternative to an if/else statement to 
+    // provide conditional logic
+    // Ex: condition ? expression : expressions
+    // ^ The condition returns a truthy or falsy; the first expression executes if
+    // truthy, and the second if falsy.
 
 // modularization: 
     // Refers to the seperation of of program functions into independent pieces
