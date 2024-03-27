@@ -794,3 +794,8 @@ const container = document.getElementById('container') */}
 
 //########################################################################################
 
+// #101 How does a default export differ from a named export? 
+// What are the limitations of using default?
+
+//########################################################################################
+

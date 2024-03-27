@@ -1696,6 +1696,16 @@
 
 //########################################################################################
 
+// #101 How does a default export differ from a named export? 
+// What are the limitations of using default?
+
+
+// For a default export, you can name it whatever you want after the import keyword without using the 
+// curly brackets and the word 'as' (so just: import filterFunction from '/searchFunction.js')
+// You can can only have one default export from a file; more than this and you will get an error. 
+
+//########################################################################################
+
 
 // !VOCAB! 
 
