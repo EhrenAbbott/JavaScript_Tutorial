@@ -1846,8 +1846,28 @@
 
 //########################################################################################
 
+// #108 Given the following arrays, make a copy of the first using the spread operator. 
+//   Next, make a new array that contains all the values of all three arrays. 
+
+// const lunchMenu = ['Greek Salad', 'Open Sandwich', 'Parsnip Soup', 'Flatbread and Dip']
+// const dinnerMenu = ['Lasagne', 'Strogonoff', 'Tagine', 'Katsu Curry']
+// const sweetMenu = ['Mixed Berry Ice Cream', 'Chocolate Brownie', 'Orange Cheesecake']
+
+// const newLunchMenu = [...lunchMenu]
+// const allMenus = [...lunchMenum, ...dinnerMenu, ...sweetMenu]
+
+// NOTE: the syntax of a spread operator and a rest parameter is indentical-- 
+// in both cases it is-- ... --so take note of how it is being used. 
+// - One very useful application of the spread operator is in making copies of arrays-- 
+// this is a topic that can get complicated/unintuitive, but this is a good way of making copies.
+
+//########################################################################################
+
 
 // !VOCAB! 
+
+// spread operator: 
+    // a specific syntax (...) used for copying, joining and expanding arrays.
 
 // rest parameter: 
     // The functiof of this is to capture the *rest* of the arguments that 

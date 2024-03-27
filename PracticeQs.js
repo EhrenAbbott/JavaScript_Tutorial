@@ -884,3 +884,12 @@ const container = document.getElementById('container') */}
 // of the rest arguments that get passed into the function when ti is invoked.
 
 //########################################################################################
+
+// #108 Given the following arrays, make a copy of the first using the spread operator. 
+//   Next, make a new array that contains all the values of all three arrays. 
+
+// const lunchMenu = ['Greek Salad', 'Open Sandwich', 'Parsnip Soup', 'Flatbread and Dip']
+// const dinnerMenu = ['Lasagne', 'Strogonoff', 'Tagine', 'Katsu Curry']
+// const sweetMenu = ['Mixed Berry Ice Cream', 'Chocolate Brownie', 'Orange Cheesecake']
+
+//########################################################################################
