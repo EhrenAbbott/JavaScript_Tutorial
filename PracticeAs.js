@@ -1726,27 +1726,27 @@
 // #103 Use .reduce with the array of objects to get the average grade.
 
 
-export const studentsArr = [
-    {
-        name: 'Mike',
-        grade: 75
-    },
-    {
-        name: 'Emma',
-        grade: 83
-    },
-    {
-        name: 'Seth',
-        grade: 66
-    }
-]
+// export const studentsArr = [
+//     {
+//         name: 'Mike',
+//         grade: 75
+//     },
+//     {
+//         name: 'Emma',
+//         grade: 83
+//     },
+//     {
+//         name: 'Seth',
+//         grade: 66
+//     }
+// ]
 
-function calculateClassAverage(studentsArr) {
-    const totalGrades = studentsArr.reduce(function(total, currentStudent){
-        return total + currentStudent.grade
-    }, 0)
-    return totalGrades / studentsArr.length
-}
+// function calculateClassAverage(studentsArr) {
+//     const totalGrades = studentsArr.reduce(function(total, currentStudent){
+//         return total + currentStudent.grade
+//     }, 0)
+//     return totalGrades / studentsArr.length
+// }
 
 //NOTE: Using .reduce with an object works a bit differently, because you can't simply 
 // access the grade property by using total.grades in the anon function argument.
@@ -1764,6 +1764,30 @@ function calculateClassAverage(studentsArr) {
 
 
 //########################################################################################
+
+// #104 In the function below we don't actually want or needed to
+// apply a discount to the calculation, but if we don't set you the function wont work. 
+// How do we fix this?
+
+// function calculateTotalCost(itemsBoughtArr, discount = 0) {
+
+//     const total = itemsBoughtArr.reduce((total, currentItem) => {
+//         return total + currentItem.priceUSD
+//     }, 0
+//     )
+//     return total - discount
+// }
+
+// NOTE: if you define a function with, say, 2 parameters but then only 
+// invoke it with 1 argument (bc the second just isnt necessary in this particular
+// usage), you will get an error. This is why default params are useful; it gives you a way 
+// of specificy the parater value without having to change it to anything later. So for example, 
+// you could set the default value to 0 if the fucntion invovles doing math, that way you 
+// yon't get an error but you also aren't forced to give it a value that isn't needed.
+
+//########################################################################################
+
+
 
 // !VOCAB! 
 
