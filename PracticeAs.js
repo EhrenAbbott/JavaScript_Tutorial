@@ -1825,8 +1825,33 @@
 
 //########################################################################################
 
+// #107 Set a rest paramter for the following function and iterate through each  
+// rest argument to make a string for every one (the string should contain the rest argument)
+
+
+// function setPermissionLevel(permissionLevel, ...names) {
+    
+//     names.forEach((name)=> console.log(`${name} now has ${permissionLevel} level access.`))
+    
+// }
+
+// setPermissionLevel('admin', 'Dave', 'Sally', 'Mike')
+
+// NOTE: The rest paramter applies all the arguments that don't specifically 
+// match a specific parameter, sort of like a catch-all for misc. arguments
+// - The rest paramter can we whatever you choose to call it (as long as its preceeded
+// by three dots), but it *HAS* to come *after* the first (or second, etc) explicit parameter. 
+// The variables name that you choose to represent the rest parameter will yield an *array*
+// of the rest arguments that get passed into the function when ti is invoked.
+
+//########################################################################################
+
 
 // !VOCAB! 
+
+// rest parameter: 
+    // The functiof of this is to capture the *rest* of the arguments that 
+    // don't explicitly match a given parameter.
 
 // ternary operator: 
     // can sometimes be used as an alternative to an if/else statement to 

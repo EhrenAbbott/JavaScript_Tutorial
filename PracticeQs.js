@@ -866,3 +866,21 @@ const container = document.getElementById('container') */}
 // a different message becomes the values of the const if the time is less than 60
 
 //########################################################################################
+// #107 Set a rest paramter for the following function and iterate through each  
+// rest argument to make a string for every one (the string should contain the rest argument)
+
+
+// function setPermissionLevel(permissionLevel) {
+        
+// }
+
+// setPermissionLevel('admin', 'Dave', 'Sally', 'Mike')
+
+// NOTE: The rest paramter applies all the arguments that don't specifically 
+// match a specific parameter, sort of like a catch-all for misc. arguments
+// - The rest paramter can we whatever you choose to call it (as long as its preceeded
+// by three dots), but it *HAS* to come *after* the first (or second, etc) explicit parameter. 
+// The variables name that you choose to represent the rest parameter will yield an *array*
+// of the rest arguments that get passed into the function when ti is invoked.
+
+//########################################################################################
