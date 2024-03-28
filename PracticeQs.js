@@ -893,3 +893,15 @@ const container = document.getElementById('container') */}
 // const sweetMenu = ['Mixed Berry Ice Cream', 'Chocolate Brownie', 'Orange Cheesecake']
 
 //########################################################################################
+
+// #109 Refactor the following ternary and apply the same logic but with the 
+//  logical OR operator
+
+// const jobHunter = {
+//     name: 'Tom Chant',
+//     // jobSearchArea: 'Europe',
+// }
+
+// const workLocation = jobHunter.jobSearchArea ? jobHunter.jobSearchArea : 'Worldwide' 
+
+//########################################################################################

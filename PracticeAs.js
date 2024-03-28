@@ -1863,8 +1863,35 @@
 
 //########################################################################################
 
+// #109 Refactor the following ternary and apply the same logic but with the 
+//  logical OR operator
+
+// const jobHunter = {
+//     name: 'Tom Chant',
+//     // jobSearchArea: 'Europe',
+// }
+
+// const workLocation = jobHunter.jobSearchArea ? jobHunter.jobSearchArea : 'Worldwide' 
+
+// const workLocation = jobHunter.jobSearchArea || 'Worldwide'
+
+
+//NOTE: All of the code (using the OR operator) gets evaluated from left to right, and ti stops 
+// evaluating when it encounters something truthy; bc jobHunter.jobSearchArea doesn't exist (it is
+// commented out) that evaluates to falsey. So the evaluation moves on the the right side of the logical 
+// OR operator and assigns that to the const. Critically, what is on the right side of the OR operator 
+// will get assigned to the const regardless of if it evaluates truthy or falsey.
+// - Using the logical OR operator here is referred to as shortcircuiting, as it stops evaluating if 
+// what's on th eelft of the || is truthy.
+
+//########################################################################################
+
 
 // !VOCAB! 
+
+// short-circuiting
+    // a way fo writing more concise code for conditional logic, 
+    // using the OR  (||)operator or the logial AND opertor (&&)
 
 // spread operator: 
     // a specific syntax (...) used for copying, joining and expanding arrays.
