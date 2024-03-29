@@ -905,3 +905,14 @@ const container = document.getElementById('container') */}
 // const workLocation = jobHunter.jobSearchArea ? jobHunter.jobSearchArea : 'Worldwide' 
 
 //########################################################################################
+
+// #110 Using the logical AND operator,  write a statement that
+// console logs "yes" if the role property in the user object has the value 
+// 'admin'.
+
+// const user = {
+//     userName: 'Tom',
+//     role: 'admin',
+// }
+
+//########################################################################################

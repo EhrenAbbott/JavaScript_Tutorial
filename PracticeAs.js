@@ -1886,6 +1886,24 @@
 
 //########################################################################################
 
+// #110 Using the logical AND operator,  write a statement that
+// console logs "yes" if the role property in the user object has the value 
+// 'admin'.
+
+// const user = {
+//     userName: 'Tom',
+//     role: 'admin',
+// }
+
+// user.role === 'admin' && console.log('Yes')
+
+// NOTE: The code evaluates from left to right (meaning, from the left of the && 
+// to the right of the &&), so if what we have on the elft hand side is true (or a truthy value)
+// the code on the right hand side executes. In other words, the false(y) value
+// causes the expression to short-circuit at the AND operator.
+
+//########################################################################################
+
 
 // !VOCAB! 
 
