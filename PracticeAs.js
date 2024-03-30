@@ -2003,6 +2003,30 @@
 
 //########################################################################################
 
+// #115 Make a basic contructor function with three properties.
+//  Have one of the properties be a method that updates another property. 
+// Call a new instance of this constructor 
+
+// function Gamer(name){
+//     this.name = name
+//     this.score = 0
+//     this.incrementScore = function(){
+//         this.score++  
+//     }
+// }
+
+// const dave = new Gamer('Dave')
+
+// NOTE: Naming the constructor function with an uppercase first letter is not syntactically
+// necessary, but it is a strong convention that should be followed. 
+// -When creating constructor, the property names will need to be added in as paramters
+// -When calling a new instance of the constructor, the property values must be passed in as arguments. 
+// -Notice how the method property doesn't appear as a parameter OR as an argument when a new instance
+// is created, and it can get invoke by using INSTANCE_NAME.METHOD_NAME
+
+//########################################################################################
+
+
 // !VOCAB! 
 
 // constructor:
