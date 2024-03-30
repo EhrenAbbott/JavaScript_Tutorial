@@ -1904,8 +1904,60 @@
 
 //########################################################################################
 
+// #111  Write a switch statement within a function that returns a string stating the name and price of
+// the argument item that gets passed in. Use the following list of items: 
+
+//  * Price List
+//  * Coffee $2
+//  * Sandwiches $5
+//  * Salad $4
+//  * Lemon Cake $3
+
+
+// function selectItem(item) {
+//     let price = 0
+ 
+//     switch(item) {
+//         case 'coffee':
+//             price = 2
+//             break 
+//         case 'sandwiches':
+//             price = 5
+//             break
+//         case 'salad':
+//             price = 4
+//             break  
+//         case 'lemon cake':
+//             price = 3 
+//             break
+//         default:
+//             return `Sorry, we don't sell ${item}`
+//     }
+//     return `You selected ${item}. That will be $${price}`
+// }
+
+// NOTE: In terms of the syntx, the item in parentheses after teh switch keyword 
+// is the variable that is being evaluated. The 'case' keyword represents one of the multiple 
+// opions that the arguments is being evaluates against. If the word in parenthess matches the word 
+// after the 'case' keyword, the following, indented code runs. In this case, setting the price to a 
+// certain number. Finally, we have a return statement after the block of code in the curly brackets. 
+// -The default keyword runs if the inputted item does not match any of the cases. 
+// - The default keyword could come anywhere in the switch statement
+// -The last item, regardless of if it begins with the 'case' keyword or the 'default' keyword, 
+// does not require the break keyword.
+// -The comparison that occurs between the item and the case is actually a strict comparison, meaning
+// it woudl be written with a triple equals if it were being written out in an if statement. This could cause
+// issues if you wee comparing, for example, the number 2 to the string '2'.
+
+//########################################################################################
+
 
 // !VOCAB! 
+
+// switch statement
+    // selects one of many possible code blocks to execute
+    // Using complex if/elses can result in a high cognitive load to interpret, 
+    // and switch statements are a simpler alternative
 
 // short-circuiting
     // a way fo writing more concise code for conditional logic, 

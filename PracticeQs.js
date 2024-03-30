@@ -916,3 +916,15 @@ const container = document.getElementById('container') */}
 // }
 
 //########################################################################################
+
+// #111  Write a switch statement within a function that returns a string stating the name and price of
+// the argument item that gets passed in. Use the following list of items: 
+
+//  * Price List
+//  * Coffee $2
+//  * Sandwiches $5
+//  * Salad $4
+//  * Lemon Cake $3
+
+//########################################################################################
+
