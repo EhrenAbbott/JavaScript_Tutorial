@@ -1951,10 +1951,28 @@
 
 //########################################################################################
 
+// #112 Assign the value of the date constructor to a variable.
+
+// const dateSnapshot = new Date()
+
+//NOTE: The value of this variable will update to the *CURRENT* date/time everytime it is run, 
+// so even if you are assigning the value to the vartiable, it will be continuously updating everytime 
+// that piece of code runs. 
+// -You can retrieve specific part of the date constructo by chaining together certain methods. For example 
+//  .getFullYear() will yield the current year. 
+
+//########################################################################################
+
 
 // !VOCAB! 
 
-// switch statement
+// constructor:
+    // A special type of function that serves as a template or blueprint to yield  a specific object.
+    // It can supply us with as many instances as we want of a paticular object.
+    // An example of this is the Date constructor; constructors require the 'new' keyword 
+    // when assigning their value to a variable.
+
+// switch statement:
     // selects one of many possible code blocks to execute
     // Using complex if/elses can result in a high cognitive load to interpret, 
     // and switch statements are a simpler alternative

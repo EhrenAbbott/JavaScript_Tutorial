@@ -928,3 +928,9 @@ const container = document.getElementById('container') */}
 
 //########################################################################################
 
+// #112 Assign the value of the date constructor to a variable.
+
+// const dateSnapshot = new Date()
+
+//########################################################################################
+
