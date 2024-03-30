@@ -1981,6 +1981,27 @@
 
 //########################################################################################
 
+// #114 The following object contains a method that updates one of the 
+//      properties contained in the same object.
+//      However, the issue with that is that it depends on the name of the object, 
+//      so if you change the object name the method would no longer work bc gamer.score
+//      would no longer accurately reference the desired property.  
+//      What would you change to solve this dilemma?
+
+// const gamer = {
+//     name: 'Dave',
+//     score: 0,
+//     incrementScore: function(){
+//         gamer.score++   
+//     }
+// }
+
+// gamer.incrementScore()
+
+// NOTE: If you were to console.log the keyword 'this' from inside the gamer object, 
+// maybe as a method, it would simply log the entire gamer object. 
+
+//########################################################################################
 
 // !VOCAB! 
 
