@@ -1963,6 +1963,24 @@
 
 //########################################################################################
 
+// #113  Use the Error constructor to produce an error message if the input value 
+// does not exist.
+// What keyword do you add to stop any code after the error message from being executed?
+
+// function checkUsername(userName) {
+//     if (userName) {
+//         console.log(userName)
+//     } else {
+//         throw new Error('No username provided')
+//     }
+// }
+
+// NOTE: The 'throw' keyword is optional, and you just choose to console log the Error
+// without it (just rememebr to use the 'new' keyword), but 'throw' is what stops subsequent code
+// from running. 
+
+//########################################################################################
+
 
 // !VOCAB! 
 

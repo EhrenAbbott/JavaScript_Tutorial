@@ -934,3 +934,17 @@ const container = document.getElementById('container') */}
 
 //########################################################################################
 
+// #113  Use the Error constructor to produce an error message if the input value 
+// does not exist.
+// What keyword do you add to stop any code after the error message from being executed?
+
+// function checkUsername(userName) {
+//     if (userName) {
+//         console.log(userName)
+//     } else {
+
+//     }
+// }
+
+//########################################################################################
+
