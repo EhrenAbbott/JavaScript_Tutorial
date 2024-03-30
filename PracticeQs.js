@@ -967,3 +967,7 @@ const container = document.getElementById('container') */}
 
 //########################################################################################
 
+// #116 Turn the constructor from #115 into a class. Create a new instance of the class. 
+
+//########################################################################################
+

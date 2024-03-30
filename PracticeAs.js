@@ -2019,15 +2019,50 @@
 
 // NOTE: Naming the constructor function with an uppercase first letter is not syntactically
 // necessary, but it is a strong convention that should be followed. 
-// -When creating constructor, the property names will need to be added in as paramters
+// -When creating constructor, the property names will need to be added in as paramters if their
+// value is based on the argument that gets passed in when a new instance is created.
 // -When calling a new instance of the constructor, the property values must be passed in as arguments. 
 // -Notice how the method property doesn't appear as a parameter OR as an argument when a new instance
 // is created, and it can get invoke by using INSTANCE_NAME.METHOD_NAME
 
 //########################################################################################
 
+// #116 Turn the constructor from #115 into a class. Create a new instance of the class. 
+
+
+// class Gamer {
+//     constructor(name, score) {
+//         this.name = name
+//         this.score = score
+//     }
+    
+//     incrementScore() {
+//         this.score++  
+//     }
+// }
+
+// const dave = new Gamer('Dave', 0)
+
+
+// NOTE: When creating a class, 'constructor' is a keyword and can't be called anything else, 
+// and the constructor method is used to initialize the objects we're creating with their properties.
+// -The syntax for creating a class method is different in that you dont have to use the 'this' keyword 
+// or the function keyword, you can just start with the name you are giving the method
+// -One important different between constructors and classes is that constructor *ARE* hoisted,
+// and classes *ARE NOT*
+// -Choosing between using a constrcutor or a class is mostly a matter of personal preference
+// -Nowadays most developers don't use class or constructor functions in vanilla JS very much,
+// as frameworks and/or libraries liek React are now used instead to carry out the same function.
+//########################################################################################
+
 
 // !VOCAB! 
+
+// class: 
+    // The class syntax gives us another way of doing what constructor functions do; producing
+    // an infinite number of objects with the same properties and methods. 
+    // There are differences under the hood between classes and constructors, but a class
+    // is also a special type of function that works as a template for creating objects
 
 // constructor:
     // A special type of function that serves as a template or blueprint to yield  a specific object.
