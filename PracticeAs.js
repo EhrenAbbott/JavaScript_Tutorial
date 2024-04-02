@@ -2053,10 +2053,19 @@
 // -Choosing between using a constrcutor or a class is mostly a matter of personal preference
 // -Nowadays most developers don't use class or constructor functions in vanilla JS very much,
 // as frameworks and/or libraries liek React are now used instead to carry out the same function.
+
 //########################################################################################
 
 
 // !VOCAB! 
+
+// breakpoint: 
+    // Allows you to run code up until a specific point
+    // in order to see what happens during that time; used in debugging
+
+// watchers: 
+    //Allows you you to monitor the values of variables or expressions over time
+    // as you step through your code; used in debugging
 
 // class: 
     // The class syntax gives us another way of doing what constructor functions do; producing
